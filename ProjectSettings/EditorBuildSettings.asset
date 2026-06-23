@@ -6,12 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark
+    path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
       Detection.unity
-    guid: df0fc3b9f7146dee593f8b5660ae773c
+    guid: 98d49dcfe667ea822a91d6b74f7cb2e9
   - enabled: 1
     path: Assets/_project/Scenes/RingTryOn.unity
     guid: 8e4830cab8f8b774797d321e422a3fc1
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark
+      Detection.unity
+    guid: df0fc3b9f7146dee593f8b5660ae773c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}

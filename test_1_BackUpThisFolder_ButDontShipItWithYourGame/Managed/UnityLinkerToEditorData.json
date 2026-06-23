@@ -52,7 +52,8 @@
             "name": "AudioBehaviour",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -60,7 +61,7 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -69,7 +70,8 @@
             "name": "AudioListener",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -83,7 +85,7 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -139,7 +141,8 @@
             "name": "Camera",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -160,7 +163,8 @@
             "name": "Cubemap",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -181,7 +185,8 @@
             "name": "EditorExtension",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -196,7 +201,8 @@
             "name": "GameObject",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -229,7 +235,8 @@
             "name": "LevelGameManager",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -238,7 +245,8 @@
             "name": "Light",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -265,7 +273,8 @@
             "name": "LightmapSettings",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -273,7 +282,8 @@
           {
             "name": "LineRenderer",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -288,7 +298,8 @@
             "name": "Material",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -296,7 +307,8 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -304,7 +316,8 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -312,7 +325,8 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -321,7 +335,8 @@
             "name": "MonoBehaviour",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -336,7 +351,8 @@
             "name": "MonoScript",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -345,7 +361,8 @@
             "name": "NamedObject",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -383,7 +400,8 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -398,7 +416,8 @@
             "name": "RenderSettings",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -431,7 +450,8 @@
             "name": "Shader",
             "scenes": [
               "Assets/_project/Scenes/RingTryOn.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -463,7 +483,8 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1004,7 +1025,8 @@
           {
             "name": "Collider",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1030,7 +1052,8 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1424,7 +1447,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1467,7 +1491,8 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1481,7 +1506,8 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
