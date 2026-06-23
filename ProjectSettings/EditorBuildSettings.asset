@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark
+      Detection.unity
+    guid: df0fc3b9f7146dee593f8b5660ae773c
+  - enabled: 1
     path: Assets/_project/Scenes/RingTryOn.unity
     guid: 8e4830cab8f8b774797d321e422a3fc1
   m_configObjects:
