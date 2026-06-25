@@ -61,7 +61,7 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -85,7 +85,7 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
