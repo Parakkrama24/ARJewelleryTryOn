@@ -5,7 +5,17 @@ public class LandmarkFollower : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private int landmarkIndex = 13;
 
-    void Update()
+    [Header("World Settings")]
+    [SerializeField] private float worldScale = 0.25f;
+    [SerializeField] private bool invertY = true;
+
+    private void Start()
+    {
+        if (mainCamera == null)
+            mainCamera = Camera.main;
+    }
+
+    private void Update()
     {
         if (HandTrackingManager.Instance == null)
             return;
@@ -13,17 +23,26 @@ public class LandmarkFollower : MonoBehaviour
         if (!HandTrackingManager.Instance.HasHand)
             return;
 
-        Vector3 landmark = HandTrackingManager.Instance.GetLandmark(landmarkIndex);
+        LandmarkData landmark =
+            HandTrackingManager.Instance.GetWorldLandmark(landmarkIndex);
 
-        // Convert normalized coordinates to screen pixels
-        Vector3 screenPoint = new Vector3(
-            landmark.x * Screen.width,
-            (1f - landmark.y) * Screen.height,
-            0.5f // Distance from the camera
-        );
+        if (landmark == null || !landmark.tracked)
+            return;
 
-        Vector3 worldPoint = mainCamera.ScreenToWorldPoint(screenPoint);
+        // MediaPipe world coordinates
+        Vector3 cameraSpace = landmark.worldPosition;
 
-        transform.position = worldPoint;
+        // Convert to Unity camera space
+        if (invertY)
+            cameraSpace.y = -cameraSpace.y;
+
+        // Scale coordinates
+        cameraSpace *= worldScale;
+
+        // Convert to Unity world coordinates
+        Vector3 worldPosition =
+            mainCamera.transform.TransformPoint(cameraSpace);
+
+        transform.position = worldPosition;
     }
 }
