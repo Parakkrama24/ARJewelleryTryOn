@@ -61,7 +61,7 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -85,7 +85,7 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity"
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1006,7 +1006,9 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1024,11 +1026,8 @@
           },
           {
             "name": "Collider",
-            "scenes": [
-              "Assets/MediaPipeUnity/Samples/Scenes/Face Landmark Detection/Face Landmark Detection.unity",
-              "Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark Detection.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
