@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class LandmarkFollower : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private int landmarkIndex = 13;
 
-    [Header("World Settings")]
-    [SerializeField] private float worldScale = 0.25f;
-    [SerializeField] private bool invertY = true;
+    [Header("Landmark")]
+    [Range(0, 20)]
+    [SerializeField] private int landmarkIndex = 14;
+
+    [Header("Debug")]
+    [SerializeField] private float distanceFromCamera = 0.35f;
+    [SerializeField] private float scaleMultiplier = 0.20f;
+    [SerializeField] private bool mirrorY = true;
 
     private void Start()
     {
@@ -29,20 +34,21 @@ public class LandmarkFollower : MonoBehaviour
         if (landmark == null || !landmark.tracked)
             return;
 
-        // MediaPipe world coordinates
-        Vector3 cameraSpace = landmark.worldPosition;
+        Vector3 mp = landmark.worldPosition;
 
-        // Convert to Unity camera space
-        if (invertY)
-            cameraSpace.y = -cameraSpace.y;
+        // Convert MediaPipe coordinate system to Unity camera space
+        Vector3 localPosition = new Vector3(
+            mp.x,
+            mirrorY ? -mp.y : mp.y,
+            distanceFromCamera + (mp.z * scaleMultiplier)
+        );
 
-        // Scale coordinates
-        cameraSpace *= worldScale;
+        // Place object relative to the AR camera
+        transform.position = mainCamera.transform.TransformPoint(localPosition);
 
-        // Convert to Unity world coordinates
-        Vector3 worldPosition =
-            mainCamera.transform.TransformPoint(cameraSpace);
-
-        transform.position = worldPosition;
+        // Always face the camera
+        transform.rotation = Quaternion.LookRotation(
+            transform.position - mainCamera.transform.position
+        );
     }
 }
