@@ -14449,7 +14449,7 @@ IL_000a:
 		return L_2;
 	}
 }
-// Method Definition Index: 121709
+// Method Definition Index: 121725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayUtils_EnsureCapacity_TisIl2CppFullySharedGenericStruct_m938B4EB2931FF9C2C46F85B047C222447D732032_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* ___0_array, int32_t ___1_capacity, int32_t ___2_allocator, int32_t ___3_options, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -14622,7 +14622,7 @@ IL2CPP_EXTERN_C  void NativeBitArray_CheckReadBounds_TisIl2CppFullySharedGeneric
 	_thisAdjusted = reinterpret_cast<NativeBitArray_t7D47863D3DFF1D41EE133D5107FFAF0D697BC00E*>(__this + _offset);
 	NativeBitArray_CheckReadBounds_TisIl2CppFullySharedGenericStruct_m90E72A69672D7A6ABEB88D135A7E642E9E80B18A(_thisAdjusted, method);
 }
-// Method Definition Index: 116318
+// Method Definition Index: 116320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyCollection_TisIl2CppFullySharedGenericStruct_mDEE0C3C4491BED8D2513ACA060A0402918ACDC4B_gshared (RuntimeObject* ___0_source, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___1_destination, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -14639,7 +14639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyCollec
 	Il2CppFullySharedGenericStruct V_2 = alloca(SizeOf_T_t45647A49FE978B1D0B0E997FC1BEA3661E2BF799);
 	memset(V_2, 0, SizeOf_T_t45647A49FE978B1D0B0E997FC1BEA3661E2BF799);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:124>
 		RuntimeObject* L_0 = ___0_source;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -14652,8 +14652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyCollec
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:125>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:126>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		NullCheck(L_4);
@@ -14690,9 +14690,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyCollec
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:128>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:129>
 		RuntimeObject* L_17 = ___0_source;
 		NullCheck((RuntimeObject*)L_17);
 		RuntimeObject* L_18;
@@ -14732,23 +14732,23 @@ IL_0084:
 
 IL_005d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:129>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:129>
 				RuntimeObject* L_21 = V_1;
 				NullCheck(L_21);
 				InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericStruct* >::Invoke(0, il2cpp_rgctx_data(method->rgctx_data, 7), L_21, (Il2CppFullySharedGenericStruct*)L_22);
 				il2cpp_codegen_memcpy(V_2, L_22, SizeOf_T_t45647A49FE978B1D0B0E997FC1BEA3661E2BF799);
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:131>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:131>
 				int32_t L_23 = V_0;
 				il2cpp_codegen_memcpy(L_24, V_2, SizeOf_T_t45647A49FE978B1D0B0E997FC1BEA3661E2BF799);
 				InvokerActionInvoker2< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 10)), il2cpp_rgctx_method(method->rgctx_data, 10), (&___1_destination), L_23, L_24);
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:132>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:132>
 				int32_t L_25 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 			}
 
 IL_0071_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:129>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:129>
 				RuntimeObject* L_26 = V_1;
 				NullCheck((RuntimeObject*)L_26);
 				bool L_27;
@@ -14770,11 +14770,11 @@ IL_0071_1:
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:134>
 		return;
 	}
 }
-// Method Definition Index: 116317
+// Method Definition Index: 116319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyList_TisIl2CppFullySharedGenericStruct_m1C0BD9BC4A49627790DB2A5DE4AD180A76A521EA_gshared (RuntimeObject* ___0_source, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___1_destination, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -14782,7 +14782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyList_T
 	const Il2CppFullySharedGenericStruct L_20 = alloca(SizeOf_T_tCED23063971432D2553EFD24D045EB088076A383);
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:101>
 		RuntimeObject* L_0 = ___0_source;
 		NullCheck((RuntimeObject*)L_0);
 		int32_t L_1;
@@ -14795,8 +14795,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyList_T
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:102>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:103>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		NullCheck(L_4);
@@ -14833,28 +14833,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_CopyFromReadOnlyList_T
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:105>
 		V_0 = 0;
 		goto IL_0069;
 	}
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:107>
 		int32_t L_17 = V_0;
 		RuntimeObject* L_18 = ___0_source;
 		int32_t L_19 = V_0;
 		NullCheck(L_18);
 		InterfaceActionInvoker2Invoker< int32_t, Il2CppFullySharedGenericStruct* >::Invoke(0, il2cpp_rgctx_data(method->rgctx_data, 0), L_18, L_19, (Il2CppFullySharedGenericStruct*)L_20);
 		InvokerActionInvoker2< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 8)), il2cpp_rgctx_method(method->rgctx_data, 8), (&___1_destination), L_17, L_20);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:105>
 		int32_t L_21 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:105>
 		int32_t L_22 = V_0;
 		RuntimeObject* L_23 = ___0_source;
 		NullCheck((RuntimeObject*)L_23);
@@ -14866,303 +14866,303 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:109>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C NativeCopyUtility_CreateArrayFilledWithValue_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m0B3165E7EAA4FE1A9FE3EE1F264D20DD7BFD5E7B_gshared (BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_3 = L_2;
 		BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m2AEFEE9AB59FEB7B2285E4681B828306675C9052(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A NativeCopyUtility_CreateArrayFilledWithValue_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mE98518CCB392D19534E6AA21868F7D7B91709C5C_gshared (XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_3 = L_2;
 		XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mFD25CE8592D33A36F07097B5F0F264A9E5F974DD(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 NativeCopyUtility_CreateArrayFilledWithValue_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_mFA18FB6DC94814707C4371EB1D59AFEC3F8AB483_gshared (XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_3 = L_2;
 		XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_mCA0759DC82F6CE2B03B815B5AE180AE438C5FC75(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 NativeCopyUtility_CreateArrayFilledWithValue_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_mB0F297DB4C8B39625A9C4FECC7445E51F91F2E6A_gshared (XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m7C2B0B4FFC022B9B16BF6FB2C978DCCC66F345EE((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 L_3 = L_2;
 		XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_mF0EB27E0DEB45E73A75BCDC47D749F8F45F4785A(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 NativeCopyUtility_CreateArrayFilledWithValue_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m1186BA1A3FB22F144960EFD13602C3C2216C4DC8_gshared (XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_3 = L_2;
 		XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_mF5EED1132BA4E3F078ABB1D77391F85D2C362ED3(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 NativeCopyUtility_CreateArrayFilledWithValue_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m046E963E11DFA9E6D8A58C5843530B55DCBD29AD_gshared (XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_3 = L_2;
 		XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_mEF979C95490DA1D4EBE00168CEDE5D9CD1EAD33D(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 NativeCopyUtility_CreateArrayFilledWithValue_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_m91C56E373771C01E633E080CF026074D24217C3C_gshared (XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_3 = L_2;
 		XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_mB26A6AAF91D8B86D19AD794FA6589CC54276F7A2(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 NativeCopyUtility_CreateArrayFilledWithValue_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_mA4D8DF9B2172AD0A6203C3E38F70CA72EA89E40A_gshared (XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_3 = L_2;
 		XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_mC947F5081695B2A0C00DE5C79175DD9513192195(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 NativeCopyUtility_CreateArrayFilledWithValue_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m5A82D69222D70FB1D1D3F8DE833F84C1E80E0BAC_gshared (XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_3 = L_2;
 		XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m7284DE28B51AEAC48F985EED8D69B63DBCE78395(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 NativeCopyUtility_CreateArrayFilledWithValue_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mEB44B8A682264717B44069C2C7F12402869CD7F1_gshared (XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_3 = L_2;
 		XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_m6A158CE920EDABA95EF5FFBAB9C73944D0AA86AF(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 NativeCopyUtility_CreateArrayFilledWithValue_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_mBCBE95973456DBB8B1CF25A78C65A28CA5BA5FE9_gshared (XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m0D69112528F839FF17F6C9C7A4B4985DCB3B6042((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 L_3 = L_2;
 		XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_m868EB7C5FB00E879340AE0D951BA42B3B58B0F3C(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C NativeCopyUtility_CreateArrayFilledWithValue_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_m21264A082EF30CB05E247A0B8DBA4B4A61C2DE2D_gshared (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m2D0E6AF1C419402888254ABD76AFD00EB86E24D7((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_3 = L_2;
 		XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_mEAA61E620D8DB337113AB8CFFC84DE18F91B627C(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 NativeCopyUtility_CreateArrayFilledWithValue_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m7FE1027472937F29C1303EBCD69EB9FF420A5121_gshared (XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m3F792CFB2FF29DB8098DDF0BFEE0FCCBAC8F1A19((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 L_3 = L_2;
 		XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m2B21D728D081A37DE956DEDA0A332596438FB26E(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B NativeCopyUtility_CreateArrayFilledWithValue_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_m957DDCA98AC8F913B7A882DB8967417CAACDD4D8_gshared (XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75 ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m02536E80A033E37A268BB288FE78991C3D04DC1B((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B L_3 = L_2;
 		XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75 L_4 = ___0_value;
 		NativeCopyUtility_FillArrayWithValue_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_mF0361E92B5F60DD213A50949AABFC54264247DED(L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116316
+// Method Definition Index: 116318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeCopyUtility_CreateArrayFilledWithValue_TisIl2CppFullySharedGenericStruct_m571ABA3343713837DA5BBF428B02FB9AF4B266F6_gshared (Il2CppFullySharedGenericStruct ___0_value, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	const uint32_t SizeOf_T_tE00E2EDF5114EDED253006285FA92C0F10576ABE = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 2));
 	const Il2CppFullySharedGenericStruct L_4 = alloca(SizeOf_T_tE00E2EDF5114EDED253006285FA92C0F10576ABE);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:85>
 		int32_t L_0 = ___1_length;
 		int32_t L_1 = ___2_allocator;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1((&L_2), L_0, L_1, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:86>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_3 = L_2;
 		il2cpp_codegen_memcpy(L_4, ___0_value, SizeOf_T_tE00E2EDF5114EDED253006285FA92C0F10576ABE);
 		InvokerActionInvoker2< NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), NULL, L_3, L_4);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:87>
 		return L_3;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m2AEFEE9AB59FEB7B2285E4681B828306675C9052_gshared (NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C ___0_array, BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15171,17 +15171,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_mF3F5CA9830DAF701AD91BD01D78440AABC084116(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15192,16 +15192,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mFD25CE8592D33A36F07097B5F0F264A9E5F974DD_gshared (NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A ___0_array, XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15210,17 +15210,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_m0FBF2D018CF7D32AB1A46A5398E1D50526A9F0C8(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15231,16 +15231,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_mCA0759DC82F6CE2B03B815B5AE180AE438C5FC75_gshared (NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 ___0_array, XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15249,17 +15249,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_m3EA7691548A55A91177E4AA120A44D4F7B88E00A(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15270,16 +15270,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_mF0EB27E0DEB45E73A75BCDC47D749F8F45F4785A_gshared (NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 ___0_array, XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15288,17 +15288,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_m3F7D84ADAD5B4373D8B1D178333CD5AD65CA826F(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15309,16 +15309,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_mF5EED1132BA4E3F078ABB1D77391F85D2C362ED3_gshared (NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 ___0_array, XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15327,17 +15327,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m295A546A740130385DC2380594B002392A961F7E(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15348,16 +15348,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_mEF979C95490DA1D4EBE00168CEDE5D9CD1EAD33D_gshared (NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___0_array, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15366,17 +15366,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m89EB0658556F6B605E8D65EE5F68E31C7BFC28E3(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15387,16 +15387,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_mB26A6AAF91D8B86D19AD794FA6589CC54276F7A2_gshared (NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 ___0_array, XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15405,17 +15405,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_m87CFF612A985E73F123C41072ED829BDD6A43CFF(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15426,16 +15426,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_mC947F5081695B2A0C00DE5C79175DD9513192195_gshared (NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 ___0_array, XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15444,17 +15444,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_m404269833648A3C28FC12B38F0934F48CBC53318(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15465,16 +15465,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m7284DE28B51AEAC48F985EED8D69B63DBCE78395_gshared (NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 ___0_array, XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15483,17 +15483,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m61ACE269A99B6B265E45BDA182B500A079BA93F5(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15504,16 +15504,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_m6A158CE920EDABA95EF5FFBAB9C73944D0AA86AF_gshared (NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 ___0_array, XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15522,17 +15522,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mC56E0B5DD47DCCA46B9E1648A7F8A19C90212506(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15543,16 +15543,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_m868EB7C5FB00E879340AE0D951BA42B3B58B0F3C_gshared (NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 ___0_array, XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15561,17 +15561,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_mD29C3B288523837A7041808B009118D6884EBFDA(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15582,16 +15582,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_mEAA61E620D8DB337113AB8CFFC84DE18F91B627C_gshared (NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C ___0_array, XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15600,17 +15600,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_mF99755075FF6D2ADDCC2E06B7CA8DDAB5234985A(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15621,16 +15621,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m2B21D728D081A37DE956DEDA0A332596438FB26E_gshared (NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 ___0_array, XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15639,17 +15639,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m023763C9C03A9C35194D2C4F26C899BAD0B89FDA(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15660,16 +15660,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_mF0361E92B5F60DD213A50949AABFC54264247DED_gshared (NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B ___0_array, XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		if (L_0)
@@ -15678,17 +15678,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B L_1 = ___0_array;
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_mF2CB1DC411B52BA6B9D76B12B03B26E66EE5F47F(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15699,16 +15699,16 @@ IL_000a:
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_array))->___m_Length);
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116315
+// Method Definition Index: 116317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_TisIl2CppFullySharedGenericStruct_m9BA004AA9E08921C1D022258E9D5D201364F0772_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___0_array, Il2CppFullySharedGenericStruct ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:64>
 		int32_t L_0;
 		L_0 = ((  int32_t (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))((&___0_array), il2cpp_rgctx_method(method->rgctx_data, 1));
 		if (L_0)
@@ -15717,17 +15717,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCopyUtility_FillArrayWithValue_Tis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:71>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_1 = ___0_array;
 		void* L_2;
 		L_2 = ((  void* (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15738,28 +15738,28 @@ IL_000a:
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))((&___0_array), il2cpp_rgctx_method(method->rgctx_data, 1));
 		UnsafeUtility_MemCpyReplicate_m0432429C10859D5BE79799A6E98B44741244287F(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C NativeCopyUtility_PtrToNativeArrayWithDefault_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m81A5EBBFE16A88F76E5FEC15CE65A29404BE85BA_gshared (BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m0B3165E7EAA4FE1A9FE3EE1F264D20DD7BFD5E7B(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_mF3F5CA9830DAF701AD91BD01D78440AABC084116(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15770,28 +15770,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_m67B07EE2F0F39318EBCE447A32F59229E5849E03_gshared (XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mE98518CCB392D19534E6AA21868F7D7B91709C5C(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_m0FBF2D018CF7D32AB1A46A5398E1D50526A9F0C8(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15802,28 +15802,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_m5C713BE8262D27E5D435FDC95205C0BD8838038A_gshared (XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_mFA18FB6DC94814707C4371EB1D59AFEC3F8AB483(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_m3EA7691548A55A91177E4AA120A44D4F7B88E00A(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15834,28 +15834,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC5748
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_m703344A67C5AC2A962E59337A7E50F2AB13F3600_gshared (XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_mB0F297DB4C8B39625A9C4FECC7445E51F91F2E6A(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9FE00E622D6 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_m3F7D84ADAD5B4373D8B1D178333CD5AD65CA826F(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15866,28 +15866,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE1C2CA4717E405609ED9F96E485A9
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_mC268C96EA513A12D149DB7DD98FD45B14FAAED6C_gshared (XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m1186BA1A3FB22F144960EFD13602C3C2216C4DC8(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m295A546A740130385DC2380594B002392A961F7E(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15898,28 +15898,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m68C148FCDE1D73485F195AEC618D858B4262F130_gshared (XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m046E963E11DFA9E6D8A58C5843530B55DCBD29AD(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m89EB0658556F6B605E8D65EE5F68E31C7BFC28E3(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15930,28 +15930,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C87
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_mFBE6A67140E3A7B0C381F58D8BAF7E82C9112DE9_gshared (XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_m91C56E373771C01E633E080CF026074D24217C3C(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_m87CFF612A985E73F123C41072ED829BDD6A43CFF(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15962,28 +15962,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_m0F0DFA6CF8BD9B8E924822206AA4B1672617D1DB_gshared (XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_mA4D8DF9B2172AD0A6203C3E38F70CA72EA89E40A(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_m404269833648A3C28FC12B38F0934F48CBC53318(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -15994,28 +15994,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_mF13AB06CC703EF88ACF74D021D75DEB3296DA31F_gshared (XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m5A82D69222D70FB1D1D3F8DE833F84C1E80E0BAC(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m61ACE269A99B6B265E45BDA182B500A079BA93F5(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16026,28 +16026,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F6141
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_m9D219AC5C947023807407B8A78D0B985F02FEB41_gshared (XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mEB44B8A682264717B44069C2C7F12402869CD7F1(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mC56E0B5DD47DCCA46B9E1648A7F8A19C90212506(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16058,28 +16058,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A865
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_m2DBC49A37FAB938DC67DB6443873A837B0809B82_gshared (XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_mBCBE95973456DBB8B1CF25A78C65A28CA5BA5FE9(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_mD29C3B288523837A7041808B009118D6884EBFDA(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16090,28 +16090,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_m354F27CE0E63D75D5FF70ADFE712D0E08D1FF9A3_gshared (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_m21264A082EF30CB05E247A0B8DBA4B4A61C2DE2D(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_mF99755075FF6D2ADDCC2E06B7CA8DDAB5234985A(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16122,28 +16122,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t6C2613A1D4A03EFEE59BBADBC52938
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_mA66DFA699DF62924EF7B027BF00D52BD3593E8D0_gshared (XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m7FE1027472937F29C1303EBCD69EB9FF420A5121(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_tC503E651BA1B71B961BBC7485E923DD431EFCC66 L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m023763C9C03A9C35194D2C4F26C899BAD0B89FDA(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16154,28 +16154,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC503E651BA1B71B961BBC7485E923D
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_mB88AA57DAC4DABA9795CE41DCFD3DC0EE918FA16_gshared (XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75 ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75 L_0 = ___0_defaultT;
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_m957DDCA98AC8F913B7A882DB8967417CAACDD4D8(L_0, L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_t0F4B76D476AFCD1C3D325B2AF615317AF55BE50B L_4 = L_3;
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_mF2CB1DC411B52BA6B9D76B12B03B26E66EE5F47F(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16186,30 +16186,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t0F4B76D476AFCD1C3D325B2AF61531
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
-// Method Definition Index: 116314
+// Method Definition Index: 116316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeCopyUtility_PtrToNativeArrayWithDefault_TisIl2CppFullySharedGenericStruct_m5DB57E174831F787CAF177A674881BD0F8DC0C64_gshared (Il2CppFullySharedGenericStruct ___0_defaultT, void* ___1_source, int32_t ___2_sourceElementSize, int32_t ___3_length, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	const uint32_t SizeOf_T_t46F0637140E4FF25028DE7404F0247222D7797BE = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 0));
 	const Il2CppFullySharedGenericStruct L_0 = alloca(SizeOf_T_t46F0637140E4FF25028DE7404F0247222D7797BE);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:41>
 		il2cpp_codegen_memcpy(L_0, ___0_defaultT, SizeOf_T_t46F0637140E4FF25028DE7404F0247222D7797BE);
 		int32_t L_1 = ___3_length;
 		int32_t L_2 = ___4_allocator;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_3;
 		L_3 = InvokerFuncInvoker3< NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, Il2CppFullySharedGenericStruct, int32_t, int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_0, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:50>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_4 = L_3;
 		void* L_5;
 		L_5 = ((  void* (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -16220,7 +16220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1A
 		int32_t L_9 = ___2_sourceElementSize;
 		int32_t L_10 = ___3_length;
 		UnsafeUtility_MemCpyStride_mD7836B76B4F1E7F30DFC859D4E6D7242AFD27C90(L_5, L_6, L_7, L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/NativeCopyUtility.cs:52>
 		return L_4;
 	}
 }
@@ -21829,7 +21829,7 @@ IL2CPP_EXTERN_C  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeS
 	_returnValue = NativeStream_ToNativeArray_TisIl2CppFullySharedGenericStruct_m7F7EEAC0A5F9619B9A028BE880C504844C338E8D(_thisAdjusted, ___0_allocator, method);
 	return _returnValue;
 }
-// Method Definition Index: 120247
+// Method Definition Index: 120263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeView_t8F56B92E78CD2A5400305F0695DC7FE7455408F1 NativeViewExtensions_AsNativeView_TisManagedReferenceImage_tACB6E8B16DD2F176EAB1A08349B2092C1194E7FE_m14EA2D6A7D5675F91BC41D77EF0284193E0A2C41_gshared (NativeArray_1_tA7A7D0942211548E9D94C540285A4463D32DC5FF ___0_array, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21853,7 +21853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeView_t8F56B92E78CD2A5400305F0695DC7FE74
 		return L_3;
 	}
 }
-// Method Definition Index: 120247
+// Method Definition Index: 120263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeView_t8F56B92E78CD2A5400305F0695DC7FE7455408F1 NativeViewExtensions_AsNativeView_TisIl2CppFullySharedGenericStruct_m3EA09587D372D3CDB9B4426F269F9EF1A6CB2121_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___0_array, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21877,7 +21877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeView_t8F56B92E78CD2A5400305F0695DC7FE74
 		return L_3;
 	}
 }
-// Method Definition Index: 120248
+// Method Definition Index: 120264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeView_t8F56B92E78CD2A5400305F0695DC7FE7455408F1 NativeViewExtensions_AsNativeView_TisIl2CppFullySharedGenericStruct_m4A494D7617931321D33AA278C49F330655EF0B6B_gshared (NativeSlice_1_tA54E5D259EBCC7CD8512AA352C6F3709EB237B52 ___0_slice, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21901,7 +21901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeView_t8F56B92E78CD2A5400305F0695DC7FE74
 		return L_3;
 	}
 }
-// Method Definition Index: 122916
+// Method Definition Index: 122932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializableProjectConfiguration_tBAE4D3A66EC38C1869E294396DB79F127B8F58EE NewtonsoftSerializer_DeserializeObject_TisSerializableProjectConfiguration_tBAE4D3A66EC38C1869E294396DB79F127B8F58EE_m7EE78C26F6155AFBBA7D9B26E1BC7BBDD0ED5986_gshared (NewtonsoftSerializer_t2B162D78E5CB7ED167264C825A95A2642D01D6CC* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -21976,7 +21976,7 @@ IL_0034:
 		return L_10;
 	}
 }
-// Method Definition Index: 122916
+// Method Definition Index: 122932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NewtonsoftSerializer_DeserializeObject_TisIl2CppFullySharedGenericAny_mA2B8C8E9AE34F1F0154C486B5E8AB555098802F0_gshared (NewtonsoftSerializer_t2B162D78E5CB7ED167264C825A95A2642D01D6CC* __this, String_t* ___0_value, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22056,7 +22056,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 122915
+// Method Definition Index: 122931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NewtonsoftSerializer_SerializeObject_TisRuntimeObject_mFD0106E155D5EA4DE87655602F63A0C357327A41_gshared (NewtonsoftSerializer_t2B162D78E5CB7ED167264C825A95A2642D01D6CC* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22189,7 +22189,7 @@ IL_0066:
 		return L_19;
 	}
 }
-// Method Definition Index: 122915
+// Method Definition Index: 122931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NewtonsoftSerializer_SerializeObject_TisIl2CppFullySharedGenericAny_m359D7F3918C50855A895EE73F9039A714D509704_gshared (NewtonsoftSerializer_t2B162D78E5CB7ED167264C825A95A2642D01D6CC* __this, Il2CppFullySharedGenericAny ___0_value, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -24446,21 +24446,21 @@ IL_0017:
 		return L_6;
 	}
 }
-// Method Definition Index: 126271
+// Method Definition Index: 126287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* ObjectPoolCreateUtil_Create_TisRuntimeObject_mEDF439598566805F750E3F353ECFDFEF9E6ABF19_gshared (int32_t ___0_defaultCapacity, int32_t ___1_maxSize, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* G_B2_0 = NULL;
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:14>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:15>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:16>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:17>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:18>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:19>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:20>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:14>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:15>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_0 = ((U3CU3Ec__0_1_t39E29892EADAFFEBD32AC63125B0EA87FDEA8DB6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___U3CU3E9__0_0;
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_1 = L_0;
@@ -24491,7 +24491,7 @@ IL_001f:
 		return L_7;
 	}
 }
-// Method Definition Index: 126272
+// Method Definition Index: 126288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* ObjectPoolCreateUtil_CreateWithReleaseTrigger_TisRuntimeObject_mC0AF60F87BD65E9435E4D1DDC517D4A722B7E24C_gshared (int32_t ___0_defaultCapacity, int32_t ___1_maxSize, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -24504,14 +24504,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49E
 	RuntimeObject* G_B3_1 = NULL;
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* G_B3_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:28>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/InternalUtils/ObjectPoolCreateUtil.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_0 = ((U3CU3Ec__1_1_t6FA3B4B45DEE89263DF8A8A5311B42414D76290D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___U3CU3E9__1_0;
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_1 = L_0;
@@ -24571,21 +24571,21 @@ IL_003f:
 		return L_12;
 	}
 }
-// Method Definition Index: 117161
+// Method Definition Index: 117163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* ObjectPoolCreateUtil_Create_TisRuntimeObject_mF7CC8B95E095BB31DC1755017179174B97B7C6D2_gshared (int32_t ___0_defaultCapacity, int32_t ___1_maxSize, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* G_B2_0 = NULL;
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:14>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:15>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:16>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:17>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:18>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:19>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:20>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:14>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:15>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_0 = ((U3CU3Ec__0_1_tA04821E1F03808E10D7DA55EA6AE6386F67F4468_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___U3CU3E9__0_0;
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_1 = L_0;
@@ -24616,7 +24616,7 @@ IL_001f:
 		return L_7;
 	}
 }
-// Method Definition Index: 117162
+// Method Definition Index: 117164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* ObjectPoolCreateUtil_CreateWithReleaseTrigger_TisRuntimeObject_m663A65870D55E6C4EC0A2BC3AE69A9440CD25A5D_gshared (int32_t ___0_defaultCapacity, int32_t ___1_maxSize, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -24629,14 +24629,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49E
 	RuntimeObject* G_B3_1 = NULL;
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* G_B3_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:28>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Util/ObjectPoolCreateUtil.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_0 = ((U3CU3Ec__1_1_tA0779A4FAA32D673FB7ED7B81FA5127409D60A03_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___U3CU3E9__1_0;
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_1 = L_0;
@@ -25583,7 +25583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneofOptions_SetExtension_TisIl2CppFully
 		return;
 	}
 }
-// Method Definition Index: 122817
+// Method Definition Index: 122833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterDependency_TisRuntimeObject_mCFCAB818C2F30D83EE035205F6166294EB3C0930_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, int32_t ___0_packageTypeHash, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25626,7 +25626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterDependency_TisRu
 		return;
 	}
 }
-// Method Definition Index: 122817
+// Method Definition Index: 122833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterDependency_TisIl2CppFullySharedGenericAny_m1176752312135ECAC03589D041DD26CE2A2868B1_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, int32_t ___0_packageTypeHash, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25669,7 +25669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterDependency_TisIl
 		return;
 	}
 }
-// Method Definition Index: 122818
+// Method Definition Index: 122834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterOptionalDependency_TisRuntimeObject_m56A77DB3A75198B7A3BCA280D6BD729C43219B30_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, int32_t ___0_packageTypeHash, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25724,7 +25724,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 122818
+// Method Definition Index: 122834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterOptionalDependency_TisIl2CppFullySharedGenericAny_m44D8DB24B50219265B65F024EF17184B63D1195F_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, int32_t ___0_packageTypeHash, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25779,7 +25779,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 122816
+// Method Definition Index: 122832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoreRegistration_tD2BD53556CAA48BD5E0D32CB92C6494C0EB85581 PackageRegistry_RegisterPackage_TisRuntimeObject_m71DAE0E56E10EBA45748EDC999A32A731EB61023_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, RuntimeObject* ___0_package, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25828,7 +25828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoreRegistration_tD2BD53556CAA48BD5E0D32CB92C
 		return L_12;
 	}
 }
-// Method Definition Index: 122816
+// Method Definition Index: 122832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoreRegistration_tD2BD53556CAA48BD5E0D32CB92C6494C0EB85581 PackageRegistry_RegisterPackage_TisIl2CppFullySharedGenericAny_m2397275E72A89A1051BFD2CA0F73BC5D01C139E9_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, Il2CppFullySharedGenericAny ___0_package, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25880,7 +25880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoreRegistration_tD2BD53556CAA48BD5E0D32CB92C
 		return L_13;
 	}
 }
-// Method Definition Index: 122819
+// Method Definition Index: 122835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterProvision_TisRuntimeObject_m0C5F363053D86D1B51A293FB1215AF5050DD25A4_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, int32_t ___0_packageTypeHash, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25912,7 +25912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterProvision_TisRun
 		return;
 	}
 }
-// Method Definition Index: 122819
+// Method Definition Index: 122835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PackageRegistry_RegisterProvision_TisIl2CppFullySharedGenericAny_m40EBEACBF205EE4E9ECF87209FFF914C193045F7_gshared (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, int32_t ___0_packageTypeHash, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -28116,7 +28116,7 @@ IL_0129:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisStyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC_mA394CA588280E4927890676FB2E18D80909B05F3_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, StyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -28623,7 +28623,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisStyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F_mF52C0D18465701E27B2CF0B6A64B025842122BD9_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, StyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -29130,7 +29130,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisStyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C_m8AB03480CE50441C2EE915E24FC36FF49311AB26_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, StyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -29637,7 +29637,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisStyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4_mD8F9F62D3F0BFC1368C3A6B26F0E472E5502C7FA_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, StyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -30144,7 +30144,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisAngle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC_m6B2055062515332A8330B3257EFDB4887D6021D4_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, Angle_t0229F612898D65B3CC646C40A32D93D8A33C1DFC* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -30651,7 +30651,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisBackground_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_m7AA071BF4FF634076D9EE7FA6B9AE7AE5A65A28E_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -31158,7 +31158,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisBackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56_mC8496C117806D8E867957A17B97A53B57B40A87A_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -31665,7 +31665,7 @@ IL_0272:
 		return;
 	}
 }
-// Method Definition Index: 119061
+// Method Definition Index: 119077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathVisitor_Unity_Properties_IPropertyBagVisitor_Visit_TisBackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F_m1BEFD6F94F5C94EDA0D005A99C98C964B9B1B912_gshared (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, RuntimeObject* ___0_properties, BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F* ___1_container, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -32211,7 +32211,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OneofOptions_t499A07FB7EEF49A1213
 		return L_0;
 	}
 }
-// Method Definition Index: 122813
+// Method Definition Index: 122829
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DependencyTree_tEBAA00C1044A3FFB3C1A7B716CDA96E9B76CD992* PackageRegistry_get_Tree_m346DB9D9068093E382434951B623D2593072E31B_inline (PackageRegistry_tEC69FE10BB71F416B3FFACF803BFAF0EED0448E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32304,7 +32304,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParseContext_Initialize_mBFA
 		return;
 	}
 }
-// Method Definition Index: 119052
+// Method Definition Index: 119068
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PropertyPath_tA523CA2740853534DF6C009C588464B45A6D0A79 PathVisitor_get_Path_m98A92F21C11F12C0C88EAC86D0F2E853DFBF9BD3_inline (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32312,7 +32312,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PropertyPath_tA523CA2740853534DF6
 		return L_0;
 	}
 }
-// Method Definition Index: 118803
+// Method Definition Index: 118819
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PropertyPathPart_get_Kind_m18581157E2924A9BF9FC8166CF98CBA468016541_inline (PropertyPathPart_tFB308743948D2298957DC1898D90AF2ACFED9DFF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32320,7 +32320,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PropertyPathPart_get_Kind
 		return L_0;
 	}
 }
-// Method Definition Index: 119060
+// Method Definition Index: 119076
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PathVisitor_set_ReturnCode_mB5629AE0124C70E479D9C4D44A8E552DA8BA19E0_inline (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32329,7 +32329,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PathVisitor_set_ReturnCode_m
 		return;
 	}
 }
-// Method Definition Index: 119055
+// Method Definition Index: 119071
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* PathVisitor_get_Property_mA08B8FE123674A9F4529C9CEAC47F6E940846E9B_inline (PathVisitor_tCD0947C41CDBDB774D22D560E5FFA01EF61C4446* __this, const RuntimeMethod* method) 
 {
 	{

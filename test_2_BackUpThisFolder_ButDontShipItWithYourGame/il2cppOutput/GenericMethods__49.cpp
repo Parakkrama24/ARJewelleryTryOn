@@ -4654,7 +4654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		return L_16;
 	}
 }
-// Method Definition Index: 117024
+// Method Definition Index: 117026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 AsyncConversion_GetData_TisIl2CppFullySharedGenericStruct_m55B782125B0D4D0B65C9018372619ED6941CDFDA_gshared (AsyncConversion_t559EB9321AFB2B096C619203286FEDC6868DE9C2* __this, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -4663,7 +4663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1A
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:69>
 		int32_t L_0;
 		L_0 = AsyncConversion_get_status_mB3A873407AF4E202A39758599DCEE52BEC196E2A(__this, NULL);
 		if ((((int32_t)L_0) == ((int32_t)3)))
@@ -4672,7 +4672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:70>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_1 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3E9DC9108B87A8D625803B99E31E1FF1628D278D)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
@@ -4680,7 +4680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1A
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:74>
 		Api_tAE210A8378E537AFD1FA4B99562229CE842377FB* L_2 = __this->___m_Api;
 		int32_t L_3 = __this->___m_RequestId;
 		NullCheck(L_2);
@@ -4692,12 +4692,12 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:76>
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:77>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:78>
 		intptr_t L_6 = V_0;
 		void* L_7;
 		L_7 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_6, NULL);
@@ -4705,13 +4705,13 @@ IL_0014:
 		int32_t L_9 = V_2;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_10;
 		L_10 = ((  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 (*) (void*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_7, ((int32_t)(L_8/L_9)), (int32_t)1, il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:83>
 		return L_10;
 	}
 
 IL_0041:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/Textures/XRCpuImage/AsyncConversion.cs:86>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_11 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8753E91E57F4AF26C69DF5B5A006924AF1E9F9C2)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, method);
@@ -4726,12 +4726,12 @@ IL2CPP_EXTERN_C  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 AsyncCo
 	_returnValue = AsyncConversion_GetData_TisIl2CppFullySharedGenericStruct_m55B782125B0D4D0B65C9018372619ED6941CDFDA(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 116629
+// Method Definition Index: 116631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNecessary_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m3FF6126D31B18EF8F02A921B6EF41A436C07AB3E_gshared (int32_t ___0_length, int32_t ___1_allocator, NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* ___2_array, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:144>
 		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_0 = ___2_array;
 		bool L_1;
 		L_1 = NativeArray_1_get_IsCreated_m478F812F31DEC928EC9D697C47C7E188CCA0010F_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
@@ -4741,7 +4741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNece
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:146>
 		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_2 = ___2_array;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_2)->___m_Length);
@@ -4752,10 +4752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNece
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:148>
 		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_5 = ___2_array;
 		NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7(L_5, il2cpp_rgctx_method(method->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:149>
 		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_6 = ___2_array;
 		int32_t L_7 = ___0_length;
 		int32_t L_8 = ___1_allocator;
@@ -4768,7 +4768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNece
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:154>
 		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_10 = ___2_array;
 		int32_t L_11 = ___0_length;
 		int32_t L_12 = ___1_allocator;
@@ -4780,16 +4780,16 @@ IL_0026:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 116629
+// Method Definition Index: 116631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNecessary_TisIl2CppFullySharedGenericStruct_mA59758011A49ED37FE547FB2E7C71E29DA35A08E_gshared (int32_t ___0_length, int32_t ___1_allocator, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* ___2_array, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:144>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_0 = ___2_array;
 		bool L_1;
 		L_1 = ((  bool (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
@@ -4799,7 +4799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNece
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:146>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_2 = ___2_array;
 		int32_t L_3;
 		L_3 = ((  int32_t (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_2, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -4810,10 +4810,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNece
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:148>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_5 = ___2_array;
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_5, il2cpp_rgctx_method(method->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:149>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_6 = ___2_array;
 		int32_t L_7 = ___0_length;
 		int32_t L_8 = ___1_allocator;
@@ -4826,7 +4826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_CreateOrResizeNativeArrayIfNece
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:154>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_10 = ___2_array;
 		int32_t L_11 = ___0_length;
 		int32_t L_12 = ___1_allocator;
@@ -4838,7 +4838,7 @@ IL_0026:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/PlaneTracking/XRPlaneSubsystem.cs:156>
 		return;
 	}
 }

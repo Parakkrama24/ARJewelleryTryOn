@@ -26380,11 +26380,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchConverterClosureHelper__cctor_m3B89
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C TrackableChanges_1_get_added_mC037C36B7D453AAE716DAAFC0D9239E9F8CCB48E_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -26398,11 +26398,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C Trackab
 	_returnValue = TrackableChanges_1_get_added_mC037C36B7D453AAE716DAAFC0D9239E9F8CCB48E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C TrackableChanges_1_get_updated_mDE93310564C5B2AE9E228517AADCC2DBC003390D_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -26416,11 +26416,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C Trackab
 	_returnValue = TrackableChanges_1_get_updated_mDE93310564C5B2AE9E228517AADCC2DBC003390D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mB8F9C7A8ACE020538F7CA79A418D2EAE6E9D632B_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -26434,11 +26434,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_mB8F9C7A8ACE020538F7CA79A418D2EAE6E9D632B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m7D1D41E1C5F00F03CBD717C2EB5F9343A4E83776_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -26452,11 +26452,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m7D1D41E1C5F00F03CBD717C2
 	_returnValue = TrackableChanges_1_get_isCreated_m7D1D41E1C5F00F03CBD717C2EB5F9343A4E83776_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -26469,7 +26469,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B22
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB82210A77FA5640057707A39F0D8B8AFD5AF02B3_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26479,30 +26479,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB82210A77FA564
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -26513,7 +26513,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mB82210A77FA5640057707A39F0D8B8AF
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F*>(__this + _offset);
 	TrackableChanges_1__ctor_mB82210A77FA5640057707A39F0D8B8AFD5AF02B3(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m487211BB5CE23FC7C36F98701CB7BB21E77C1E3F_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26523,30 +26523,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m487211BB5CE23F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m0B3165E7EAA4FE1A9FE3EE1F264D20DD7BFD5E7B(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m0B3165E7EAA4FE1A9FE3EE1F264D20DD7BFD5E7B(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -26557,7 +26557,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m487211BB5CE23FC7C36F98701CB7BB21
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F*>(__this + _offset);
 	TrackableChanges_1__ctor_m487211BB5CE23FC7C36F98701CB7BB21E77C1E3F(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m20EC72CF73EBF4EFF269979448BF3DF59AE27ECD_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26568,7 +26568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m20EC72CF73EBF4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -26577,7 +26577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m20EC72CF73EBF4
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m81A5EBBFE16A88F76E5FEC15CE65A29404BE85BA(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -26586,14 +26586,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m20EC72CF73EBF4
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m81A5EBBFE16A88F76E5FEC15CE65A29404BE85BA(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -26601,7 +26601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m20EC72CF73EBF4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -26613,9 +26613,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m20EC72CF73EBF4
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -26626,7 +26626,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m20EC72CF73EBF4EFF269979448BF3DF5
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F*>(__this + _offset);
 	TrackableChanges_1__ctor_m20EC72CF73EBF4EFF269979448BF3DF59AE27ECD(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC968A5C1F35F3A00EBA344210DC41EB4C9BF7663_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26649,16 +26649,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC968A5C1F35F3A
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -26666,7 +26666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC968A5C1F35F3A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -26706,25 +26706,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_9;
 				L_9 = InterfaceFuncInvoker0< BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C* L_10 = (NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -26746,16 +26746,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -26763,7 +26763,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -26803,25 +26803,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_25;
 				L_25 = InterfaceFuncInvoker0< BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C* L_26 = (NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -26843,16 +26843,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -26860,7 +26860,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -26900,25 +26900,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -26940,9 +26940,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -26953,7 +26953,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mC968A5C1F35F3A00EBA344210DC41EB4
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F*>(__this + _offset);
 	TrackableChanges_1__ctor_mC968A5C1F35F3A00EBA344210DC41EB4C9BF7663(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F TrackableChanges_1_CopyFrom_mA58C3BB946A189DD9EF93B5C2C7ACD9391397407_gshared (NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C ___0_added, NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26970,31 +26970,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_2 = ___0_added;
 		NativeArray_1_CopyFrom_m5852E56BB4B5D56B53EEC5742E3BC1A2B5B5B1F0((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_mBFCDCB65BA72515FBC46506A6FF5600934A797E8((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_m5852E56BB4B5D56B53EEC5742E3BC1A2B5B5B1F0((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_9 = V_0;
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -27004,7 +27004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m3CFBA23B1D8F478EBB367F6433B925049BC25974_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27014,7 +27014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m3CFBA23B1D8F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m7D1D41E1C5F00F03CBD717C2EB5F9343A4E83776_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -27023,22 +27023,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m3CFBA23B1D8F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C* L_1 = (NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C*)(&__this->___m_Added);
 		NativeArray_1_Dispose_mDEC6259DE2D671E08FBC6AEE608E205913F371F2(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C* L_2 = (NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_mDEC6259DE2D671E08FBC6AEE608E205913F371F2(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -27049,22 +27049,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m3CFBA23B1D8F478EBB367F6433B925
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F*>(__this + _offset);
 	TrackableChanges_1_Dispose_m3CFBA23B1D8F478EBB367F6433B925049BC25974(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE571212D13DDC8694938308FBE4013F46C48B9C3_gshared (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C ___0_added, NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -27083,11 +27083,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mE571212D13DDC8694938308FBE4013F4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A TrackableChanges_1_get_added_m247464F980D46DD4B1BC63D35DEF4F0B10835FB7_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -27101,11 +27101,11 @@ IL2CPP_EXTERN_C  NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A Trackab
 	_returnValue = TrackableChanges_1_get_added_m247464F980D46DD4B1BC63D35DEF4F0B10835FB7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A TrackableChanges_1_get_updated_mF8CD50C65A76F68ED3EFCE8A4316153A2CAF3999_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -27119,11 +27119,11 @@ IL2CPP_EXTERN_C  NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A Trackab
 	_returnValue = TrackableChanges_1_get_updated_mF8CD50C65A76F68ED3EFCE8A4316153A2CAF3999_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m0E574DBEEC409628E125B65A3437EA9C9D73F06F_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -27137,11 +27137,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_m0E574DBEEC409628E125B65A3437EA9C9D73F06F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_mCA53CD4537E312974D468BF8FCC60504C3E59E1C_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -27155,11 +27155,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_mCA53CD4537E312974D468BF8
 	_returnValue = TrackableChanges_1_get_isCreated_mCA53CD4537E312974D468BF8FCC60504C3E59E1C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -27172,7 +27172,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m76E2F2CE1C96310F9CA8EFD238D7C83B2CD58196_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27182,30 +27182,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m76E2F2CE1C9631
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -27216,7 +27216,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m76E2F2CE1C96310F9CA8EFD238D7C83B
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931*>(__this + _offset);
 	TrackableChanges_1__ctor_m76E2F2CE1C96310F9CA8EFD238D7C83B2CD58196(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF7FDCAC6301A5F544F22C609FFDB49475E1633AA_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27226,30 +27226,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF7FDCAC6301A5F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mE98518CCB392D19534E6AA21868F7D7B91709C5C(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mE98518CCB392D19534E6AA21868F7D7B91709C5C(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -27260,7 +27260,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mF7FDCAC6301A5F544F22C609FFDB4947
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931*>(__this + _offset);
 	TrackableChanges_1__ctor_mF7FDCAC6301A5F544F22C609FFDB49475E1633AA(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF0606DD2BB9C43B53F65F857EC829D41C7745A0A_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27271,7 +27271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF0606DD2BB9C43
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -27280,7 +27280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF0606DD2BB9C43
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_m67B07EE2F0F39318EBCE447A32F59229E5849E03(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -27289,14 +27289,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF0606DD2BB9C43
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_m67B07EE2F0F39318EBCE447A32F59229E5849E03(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -27304,7 +27304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF0606DD2BB9C43
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -27316,9 +27316,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF0606DD2BB9C43
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -27329,7 +27329,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mF0606DD2BB9C43B53F65F857EC829D41
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931*>(__this + _offset);
 	TrackableChanges_1__ctor_mF0606DD2BB9C43B53F65F857EC829D41C7745A0A(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m9A35FD1D0FF1D7E12FC427802619FA2D3F0FCF89_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27352,16 +27352,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m9A35FD1D0FF1D7
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -27369,7 +27369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m9A35FD1D0FF1D7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -27409,25 +27409,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_9;
 				L_9 = InterfaceFuncInvoker0< XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A* L_10 = (NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -27449,16 +27449,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -27466,7 +27466,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -27506,25 +27506,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_25;
 				L_25 = InterfaceFuncInvoker0< XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A* L_26 = (NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -27546,16 +27546,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -27563,7 +27563,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -27603,25 +27603,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -27643,9 +27643,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -27656,7 +27656,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m9A35FD1D0FF1D7E12FC427802619FA2D
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931*>(__this + _offset);
 	TrackableChanges_1__ctor_m9A35FD1D0FF1D7E12FC427802619FA2D3F0FCF89(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931 TrackableChanges_1_CopyFrom_m5D8CC6A8E601C7AACFCD60AAFD39D828C11B1319_gshared (NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A ___0_added, NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27673,31 +27673,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t6971CD7F709E7353F4365FE06
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_2 = ___0_added;
 		NativeArray_1_CopyFrom_m588AD8315F86B0CDB8BBDF3F748E3AFEB4FDBCAD((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_mF0E54F4AC97D8FD94CE48D98AF76A275ABFA9EA7((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_m588AD8315F86B0CDB8BBDF3F748E3AFEB4FDBCAD((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_9 = V_0;
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -27707,7 +27707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t6971CD7F709E7353F4365FE06
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m5DD2DC8F7FD6773D16E7C0A7C4382C2FA20DA89C_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27717,7 +27717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m5DD2DC8F7FD6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_mCA53CD4537E312974D468BF8FCC60504C3E59E1C_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -27726,22 +27726,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m5DD2DC8F7FD6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A* L_1 = (NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A*)(&__this->___m_Added);
 		NativeArray_1_Dispose_m5113E8AE8AB4EFCEC5FDF957FBBF5C0CD2686E88(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A* L_2 = (NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_m5113E8AE8AB4EFCEC5FDF957FBBF5C0CD2686E88(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -27752,22 +27752,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m5DD2DC8F7FD6773D16E7C0A7C4382C
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931*>(__this + _offset);
 	TrackableChanges_1_Dispose_m5DD2DC8F7FD6773D16E7C0A7C4382C2FA20DA89C(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF4B51260105508D989AA106FDFE58B00ECA3EF17_gshared (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A ___0_added, NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -27786,11 +27786,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mF4B51260105508D989AA106FDFE58B00
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 TrackableChanges_1_get_added_mCAE3284E718CD7C73A89F7B4135DECAC1217D5AF_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -27804,11 +27804,11 @@ IL2CPP_EXTERN_C  NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 Trackab
 	_returnValue = TrackableChanges_1_get_added_mCAE3284E718CD7C73A89F7B4135DECAC1217D5AF_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 TrackableChanges_1_get_updated_mD31BA0CBD5A9F800D1C68B22D7C2B87E4779E31A_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -27822,11 +27822,11 @@ IL2CPP_EXTERN_C  NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 Trackab
 	_returnValue = TrackableChanges_1_get_updated_mD31BA0CBD5A9F800D1C68B22D7C2B87E4779E31A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mF93FA9845EB817E45D1A36B61CFE9AED8D065399_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -27840,11 +27840,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_mF93FA9845EB817E45D1A36B61CFE9AED8D065399_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m70418625E04DFE74E5F6636F8EE60DD1D7874A53_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -27858,11 +27858,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m70418625E04DFE74E5F6636F
 	_returnValue = TrackableChanges_1_get_isCreated_m70418625E04DFE74E5F6636F8EE60DD1D7874A53_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -27875,7 +27875,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mD953DC6BEC6783BFC714D990C4F89F2717F4E707_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27885,30 +27885,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mD953DC6BEC6783
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -27919,7 +27919,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mD953DC6BEC6783BFC714D990C4F89F27
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9*>(__this + _offset);
 	TrackableChanges_1__ctor_mD953DC6BEC6783BFC714D990C4F89F2717F4E707(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m08D11C027AB4D60401DAF67F11F6FBD5D6E5524E_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27929,30 +27929,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m08D11C027AB4D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_mFA18FB6DC94814707C4371EB1D59AFEC3F8AB483(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_mFA18FB6DC94814707C4371EB1D59AFEC3F8AB483(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -27963,7 +27963,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m08D11C027AB4D60401DAF67F11F6FBD5
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9*>(__this + _offset);
 	TrackableChanges_1__ctor_m08D11C027AB4D60401DAF67F11F6FBD5D6E5524E(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC88642198C8B81072D17F9B8633494834C1E9C43_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27974,7 +27974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC88642198C8B81
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -27983,7 +27983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC88642198C8B81
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_m5C713BE8262D27E5D435FDC95205C0BD8838038A(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -27992,14 +27992,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC88642198C8B81
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85_m5C713BE8262D27E5D435FDC95205C0BD8838038A(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -28007,7 +28007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC88642198C8B81
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -28019,9 +28019,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mC88642198C8B81
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -28032,7 +28032,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mC88642198C8B81072D17F9B863349483
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9*>(__this + _offset);
 	TrackableChanges_1__ctor_mC88642198C8B81072D17F9B8633494834C1E9C43(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m2A9BEB23AE049F32B344B0B04C921CFFF6C1EE6A_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28055,16 +28055,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m2A9BEB23AE049F
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -28072,7 +28072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m2A9BEB23AE049F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -28112,25 +28112,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_9;
 				L_9 = InterfaceFuncInvoker0< XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023* L_10 = (NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -28152,16 +28152,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -28169,7 +28169,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -28209,25 +28209,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_25;
 				L_25 = InterfaceFuncInvoker0< XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023* L_26 = (NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85 L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRBoundingBox_tF12DE2409AC158AA9821C5F37C76716468FA6F85, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -28249,16 +28249,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -28266,7 +28266,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -28306,25 +28306,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -28346,9 +28346,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -28359,7 +28359,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m2A9BEB23AE049F32B344B0B04C921CFF
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9*>(__this + _offset);
 	TrackableChanges_1__ctor_m2A9BEB23AE049F32B344B0B04C921CFFF6C1EE6A(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9 TrackableChanges_1_CopyFrom_m729B1DBF3C50818B689C87BA26EB24CE3D92E0D5_gshared (NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 ___0_added, NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28376,31 +28376,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_m3CD48BAFA0DBD0A563781C28D3E53D2A77C994ED((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_m72597CF41CB3E60884F1F6D9D7D7A8D41DE6A11F((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_m3CD48BAFA0DBD0A563781C28D3E53D2A77C994ED((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_9 = V_0;
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -28410,7 +28410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m56C615D6195A2BF8F9370AB093A0BE7C2B7C3571_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28420,7 +28420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m56C615D6195A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m70418625E04DFE74E5F6636F8EE60DD1D7874A53_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -28429,22 +28429,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m56C615D6195A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023* L_1 = (NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023*)(&__this->___m_Added);
 		NativeArray_1_Dispose_mC8C2B21FA3A13A605ECA98C10CB6AD8359675140(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023* L_2 = (NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_mC8C2B21FA3A13A605ECA98C10CB6AD8359675140(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -28455,22 +28455,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m56C615D6195A2BF8F9370AB093A0BE
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9*>(__this + _offset);
 	TrackableChanges_1_Dispose_m56C615D6195A2BF8F9370AB093A0BE7C2B7C3571(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m56D79284BB934E098B7F61A0E56E3942A2D21D42_gshared (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 ___0_added, NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -28489,11 +28489,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m56D79284BB934E098B7F61A0E56E3942
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 TrackableChanges_1_get_added_m8E0E28C84E03CC94A82F70D77D5E8F753F39363A_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -28507,11 +28507,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 Trackab
 	_returnValue = TrackableChanges_1_get_added_m8E0E28C84E03CC94A82F70D77D5E8F753F39363A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 TrackableChanges_1_get_updated_mB7A87D602027E36E117065D68A04692716D37388_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -28525,11 +28525,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 Trackab
 	_returnValue = TrackableChanges_1_get_updated_mB7A87D602027E36E117065D68A04692716D37388_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mB692C4B8E9682871345D028184FD08CA66224E56_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -28543,11 +28543,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_mB692C4B8E9682871345D028184FD08CA66224E56_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_mAB66CB342D0348AD359E751CBF652367F62D27BE_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -28561,11 +28561,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_mAB66CB342D0348AD359E751C
 	_returnValue = TrackableChanges_1_get_isCreated_mAB66CB342D0348AD359E751CBF652367F62D27BE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -28578,7 +28578,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB4
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m24DBBDE9DB8FCA73F6E3A47B478DDC94BBA080B4_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28588,30 +28588,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m24DBBDE9DB8FCA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -28622,7 +28622,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m24DBBDE9DB8FCA73F6E3A47B478DDC94
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F*>(__this + _offset);
 	TrackableChanges_1__ctor_m24DBBDE9DB8FCA73F6E3A47B478DDC94BBA080B4(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m04EC64BAFAB595ADE7B0C7E4E5A2C2F04DFDE444_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28632,30 +28632,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m04EC64BAFAB595
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m1186BA1A3FB22F144960EFD13602C3C2216C4DC8(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m1186BA1A3FB22F144960EFD13602C3C2216C4DC8(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -28666,7 +28666,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m04EC64BAFAB595ADE7B0C7E4E5A2C2F0
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F*>(__this + _offset);
 	TrackableChanges_1__ctor_m04EC64BAFAB595ADE7B0C7E4E5A2C2F04DFDE444(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m35485EED9592C82285AC9E6C31B4DDCE35F788D2_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28677,7 +28677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m35485EED9592C8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -28686,7 +28686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m35485EED9592C8
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_mC268C96EA513A12D149DB7DD98FD45B14FAAED6C(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -28695,14 +28695,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m35485EED9592C8
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_mC268C96EA513A12D149DB7DD98FD45B14FAAED6C(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -28710,7 +28710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m35485EED9592C8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -28722,9 +28722,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m35485EED9592C8
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -28735,7 +28735,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m35485EED9592C82285AC9E6C31B4DDCE
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F*>(__this + _offset);
 	TrackableChanges_1__ctor_m35485EED9592C82285AC9E6C31B4DDCE35F788D2(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mBFCD6C187445DC89E8FA20142AD67D791494137E_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28758,16 +28758,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mBFCD6C187445DC
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -28775,7 +28775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mBFCD6C187445DC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -28815,25 +28815,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_9;
 				L_9 = InterfaceFuncInvoker0< XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2* L_10 = (NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -28855,16 +28855,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -28872,7 +28872,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -28912,25 +28912,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_25;
 				L_25 = InterfaceFuncInvoker0< XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2* L_26 = (NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -28952,16 +28952,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -28969,7 +28969,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -29009,25 +29009,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -29049,9 +29049,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -29062,7 +29062,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mBFCD6C187445DC89E8FA20142AD67D79
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F*>(__this + _offset);
 	TrackableChanges_1__ctor_mBFCD6C187445DC89E8FA20142AD67D791494137E(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F TrackableChanges_1_CopyFrom_m2D9F6A04BD381EA1B764285BD53F1A2B2450C63E_gshared (NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 ___0_added, NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29079,31 +29079,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t03BF8B384A61E7421A4748384
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_mEB4DC6867205195AF60993934F7739284E1BBA3B((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_m96640764DCE1F1900150DA0FC1D992D9DC52687D((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_mEB4DC6867205195AF60993934F7739284E1BBA3B((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_9 = V_0;
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -29113,7 +29113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t03BF8B384A61E7421A4748384
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m83C5617202AF34BF17844B80195A0238CF7589CB_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29123,7 +29123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m83C5617202AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_mAB66CB342D0348AD359E751CBF652367F62D27BE_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -29132,22 +29132,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m83C5617202AF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2* L_1 = (NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2*)(&__this->___m_Added);
 		NativeArray_1_Dispose_m1CF837C78095CD96AC2384EBF2BB3A6B4BF10932(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2* L_2 = (NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_m1CF837C78095CD96AC2384EBF2BB3A6B4BF10932(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -29158,22 +29158,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m83C5617202AF34BF17844B80195A02
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F*>(__this + _offset);
 	TrackableChanges_1_Dispose_m83C5617202AF34BF17844B80195A0238CF7589CB(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m0A2BFC72A7872E3796E40A20E5A02D71597BE095_gshared (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 ___0_added, NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -29192,11 +29192,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m0A2BFC72A7872E3796E40A20E5A02D71
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 TrackableChanges_1_get_added_mC976D7B10EA3881871F38F0098CB782D2B4F3CC0_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -29210,11 +29210,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 Trackab
 	_returnValue = TrackableChanges_1_get_added_mC976D7B10EA3881871F38F0098CB782D2B4F3CC0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 TrackableChanges_1_get_updated_m7600C09050F548113163F28357515FA195925891_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -29228,11 +29228,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 Trackab
 	_returnValue = TrackableChanges_1_get_updated_m7600C09050F548113163F28357515FA195925891_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m8B0967F38BE46C987E2C0A104323BBCD97AB8927_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -29246,11 +29246,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_m8B0967F38BE46C987E2C0A104323BBCD97AB8927_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m40C3038EDC1A69C69429E994ED5B0D2962FA4ABE_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -29264,11 +29264,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m40C3038EDC1A69C69429E994
 	_returnValue = TrackableChanges_1_get_isCreated_m40C3038EDC1A69C69429E994ED5B0D2962FA4ABE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -29281,7 +29281,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mED85B5856A4AC6FF9C3C6762E7A8568C8AFD784B_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29291,30 +29291,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mED85B5856A4AC6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -29325,7 +29325,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mED85B5856A4AC6FF9C3C6762E7A8568C
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*>(__this + _offset);
 	TrackableChanges_1__ctor_mED85B5856A4AC6FF9C3C6762E7A8568C8AFD784B(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m3F734C8E8D63F51845AC501BA870D9209C608EF4_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29335,30 +29335,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m3F734C8E8D63F5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m046E963E11DFA9E6D8A58C5843530B55DCBD29AD(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m046E963E11DFA9E6D8A58C5843530B55DCBD29AD(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -29369,7 +29369,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m3F734C8E8D63F51845AC501BA870D920
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*>(__this + _offset);
 	TrackableChanges_1__ctor_m3F734C8E8D63F51845AC501BA870D9209C608EF4(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29380,7 +29380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -29389,7 +29389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m68C148FCDE1D73485F195AEC618D858B4262F130(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -29398,14 +29398,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m68C148FCDE1D73485F195AEC618D858B4262F130(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -29413,7 +29413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -29425,9 +29425,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -29438,7 +29438,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*>(__this + _offset);
 	TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m12611C8CE39474593C05C73F9B80A5C3B40FE7C2_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29461,16 +29461,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m12611C8CE39474
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -29478,7 +29478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m12611C8CE39474
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -29518,25 +29518,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_9;
 				L_9 = InterfaceFuncInvoker0< XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009* L_10 = (NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -29558,16 +29558,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -29575,7 +29575,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -29615,25 +29615,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_25;
 				L_25 = InterfaceFuncInvoker0< XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009* L_26 = (NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -29655,16 +29655,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -29672,7 +29672,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -29712,25 +29712,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -29752,9 +29752,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -29765,7 +29765,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m12611C8CE39474593C05C73F9B80A5C3
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*>(__this + _offset);
 	TrackableChanges_1__ctor_m12611C8CE39474593C05C73F9B80A5C3B40FE7C2(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119 TrackableChanges_1_CopyFrom_m1A4CD727319B12A54B6CCE06B3C5387C2B1B0164_gshared (NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___0_added, NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29782,31 +29782,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_mC744C9D9B3A54A2959B118CA6622ACFAC53C72CF((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_mCA06C3646E600B8615C70CB3DA97038528B18498((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_mC744C9D9B3A54A2959B118CA6622ACFAC53C72CF((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_9 = V_0;
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -29816,7 +29816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m8D027CBE51AE683E048A1C10C98D707FD0408A0E_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29826,7 +29826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m8D027CBE51AE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m40C3038EDC1A69C69429E994ED5B0D2962FA4ABE_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -29835,22 +29835,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m8D027CBE51AE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009* L_1 = (NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009*)(&__this->___m_Added);
 		NativeArray_1_Dispose_m9C211E4A3BAF90ADFC29E7BA595160405CFE2819(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009* L_2 = (NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_m9C211E4A3BAF90ADFC29E7BA595160405CFE2819(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -29861,22 +29861,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m8D027CBE51AE683E048A1C10C98D70
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*>(__this + _offset);
 	TrackableChanges_1_Dispose_m8D027CBE51AE683E048A1C10C98D707FD0408A0E(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m974A96367CCF17E7B2E9B595985387F947BEAF74_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___0_added, NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -29895,11 +29895,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m974A96367CCF17E7B2E9B595985387F9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 TrackableChanges_1_get_added_m7F31AA8A5F6934F83681E8BD6BBA797F87E5D1E0_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -29913,11 +29913,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 Trackab
 	_returnValue = TrackableChanges_1_get_added_m7F31AA8A5F6934F83681E8BD6BBA797F87E5D1E0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 TrackableChanges_1_get_updated_mC79BCE7C56B99C53E6340EB5683F7DEDF1C3AA8E_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -29931,11 +29931,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 Trackab
 	_returnValue = TrackableChanges_1_get_updated_mC79BCE7C56B99C53E6340EB5683F7DEDF1C3AA8E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m9ED605C97CF3E20830DA7B6811B123B09C1B2585_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -29949,11 +29949,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_m9ED605C97CF3E20830DA7B6811B123B09C1B2585_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m123EE042163794B57AA010AD69EF9CEBF4F4AE3C_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -29967,11 +29967,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m123EE042163794B57AA010AD
 	_returnValue = TrackableChanges_1_get_isCreated_m123EE042163794B57AA010AD69EF9CEBF4F4AE3C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -29984,7 +29984,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD70
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mEAE3694A84FE50B228D3D460AD85FA90ABF9C9AF_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29994,30 +29994,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mEAE3694A84FE50
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -30028,7 +30028,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mEAE3694A84FE50B228D3D460AD85FA90
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6*>(__this + _offset);
 	TrackableChanges_1__ctor_mEAE3694A84FE50B228D3D460AD85FA90ABF9C9AF(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB2DEC47BF155F83D9DF41E0F34F2A4F5578F8D2B_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30038,30 +30038,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB2DEC47BF155F8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_m91C56E373771C01E633E080CF026074D24217C3C(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_m91C56E373771C01E633E080CF026074D24217C3C(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -30072,7 +30072,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mB2DEC47BF155F83D9DF41E0F34F2A4F5
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6*>(__this + _offset);
 	TrackableChanges_1__ctor_mB2DEC47BF155F83D9DF41E0F34F2A4F5578F8D2B(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE8265BAC89B8A2D6FCA7A14DBC11D22E74DF5DFA_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30083,7 +30083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE8265BAC89B8A2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -30092,7 +30092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE8265BAC89B8A2
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_mFBE6A67140E3A7B0C381F58D8BAF7E82C9112DE9(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -30101,14 +30101,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE8265BAC89B8A2
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692_mFBE6A67140E3A7B0C381F58D8BAF7E82C9112DE9(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -30116,7 +30116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE8265BAC89B8A2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -30128,9 +30128,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mE8265BAC89B8A2
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -30141,7 +30141,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mE8265BAC89B8A2D6FCA7A14DBC11D22E
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6*>(__this + _offset);
 	TrackableChanges_1__ctor_mE8265BAC89B8A2D6FCA7A14DBC11D22E74DF5DFA(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mD28414ABA977DC444DF4C7286C390B262F5358FD_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30164,16 +30164,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mD28414ABA977DC
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -30181,7 +30181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mD28414ABA977DC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -30221,25 +30221,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_9;
 				L_9 = InterfaceFuncInvoker0< XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0* L_10 = (NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -30261,16 +30261,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -30278,7 +30278,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -30318,25 +30318,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_25;
 				L_25 = InterfaceFuncInvoker0< XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0* L_26 = (NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692 L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRHumanBody_t88EF91F599A4F22EABB233F85DE7782EE8B86692, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -30358,16 +30358,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -30375,7 +30375,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -30415,25 +30415,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -30455,9 +30455,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -30468,7 +30468,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mD28414ABA977DC444DF4C7286C390B26
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6*>(__this + _offset);
 	TrackableChanges_1__ctor_mD28414ABA977DC444DF4C7286C390B262F5358FD(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6 TrackableChanges_1_CopyFrom_m1E5C783EDB932327B46284259DD43BDAA62324B3_gshared (NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 ___0_added, NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30485,31 +30485,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tAB0D56187755251BCF253FBC1
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_m994BDB196B0637784692F006C99EF55BDCD66A9D((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_m35D30C4E671ACF3FD4F35E6442130E1969FF47FB((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_m994BDB196B0637784692F006C99EF55BDCD66A9D((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_9 = V_0;
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -30519,7 +30519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tAB0D56187755251BCF253FBC1
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m009F3E273F28D1C17F4CF3FFA9CFDF76A8F811E5_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30529,7 +30529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m009F3E273F28
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m123EE042163794B57AA010AD69EF9CEBF4F4AE3C_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -30538,22 +30538,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m009F3E273F28
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0* L_1 = (NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0*)(&__this->___m_Added);
 		NativeArray_1_Dispose_m2F207080B76B1A52498708A0A71DBAC8420D4E4B(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0* L_2 = (NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_m2F207080B76B1A52498708A0A71DBAC8420D4E4B(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -30564,22 +30564,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m009F3E273F28D1C17F4CF3FFA9CFDF
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6*>(__this + _offset);
 	TrackableChanges_1_Dispose_m009F3E273F28D1C17F4CF3FFA9CFDF76A8F811E5(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m354A81DD7C2D6B176F080D8895F4012CC282ACB7_gshared (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 ___0_added, NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -30598,11 +30598,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m354A81DD7C2D6B176F080D8895F4012C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 TrackableChanges_1_get_added_m2714528A85AD89BB5AE0B787A18075BDD7A1BA43_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -30616,11 +30616,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 Trackab
 	_returnValue = TrackableChanges_1_get_added_m2714528A85AD89BB5AE0B787A18075BDD7A1BA43_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 TrackableChanges_1_get_updated_mF251EA97C101253BDB1E04A445EAA9FCA661A92F_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -30634,11 +30634,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 Trackab
 	_returnValue = TrackableChanges_1_get_updated_mF251EA97C101253BDB1E04A445EAA9FCA661A92F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m0EEB7A1BF5560F7C48AA75AC3E487363F2FDBEE7_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -30652,11 +30652,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_m0EEB7A1BF5560F7C48AA75AC3E487363F2FDBEE7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m90AB2CAA0FFC26A3AEC062C087DCBA6AEB65F2D8_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -30670,11 +30670,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m90AB2CAA0FFC26A3AEC062C0
 	_returnValue = TrackableChanges_1_get_isCreated_m90AB2CAA0FFC26A3AEC062C087DCBA6AEB65F2D8_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -30687,7 +30687,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE23
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mA3B9313098102570E7B7146E7304FF9713841758_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30697,30 +30697,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mA3B93130981025
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -30731,7 +30731,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mA3B9313098102570E7B7146E7304FF97
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179*>(__this + _offset);
 	TrackableChanges_1__ctor_mA3B9313098102570E7B7146E7304FF9713841758(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB4A621813E327CD3EEDE31262AF017B8525A5710_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30741,30 +30741,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB4A621813E327C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_mA4D8DF9B2172AD0A6203C3E38F70CA72EA89E40A(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_mA4D8DF9B2172AD0A6203C3E38F70CA72EA89E40A(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -30775,7 +30775,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mB4A621813E327CD3EEDE31262AF017B8
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179*>(__this + _offset);
 	TrackableChanges_1__ctor_mB4A621813E327CD3EEDE31262AF017B8525A5710(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m60D2A98576D9D13C87544684350CD7E17A111B5D_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30786,7 +30786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m60D2A98576D9D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -30795,7 +30795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m60D2A98576D9D1
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_m0F0DFA6CF8BD9B8E924822206AA4B1672617D1DB(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -30804,14 +30804,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m60D2A98576D9D1
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1_m0F0DFA6CF8BD9B8E924822206AA4B1672617D1DB(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -30819,7 +30819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m60D2A98576D9D1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -30831,9 +30831,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m60D2A98576D9D1
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -30844,7 +30844,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m60D2A98576D9D13C87544684350CD7E1
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179*>(__this + _offset);
 	TrackableChanges_1__ctor_m60D2A98576D9D13C87544684350CD7E17A111B5D(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m57E2E8C8E445E83970D9B48553752CADFA34FF74_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30867,16 +30867,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m57E2E8C8E445E8
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -30884,7 +30884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m57E2E8C8E445E8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -30924,25 +30924,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_9;
 				L_9 = InterfaceFuncInvoker0< XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18* L_10 = (NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -30964,16 +30964,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -30981,7 +30981,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -31021,25 +31021,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_25;
 				L_25 = InterfaceFuncInvoker0< XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18* L_26 = (NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1 L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRParticipant_t3885B841862D28B0509433D566F00FA3C3CD79E1, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -31061,16 +31061,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -31078,7 +31078,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -31118,25 +31118,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -31158,9 +31158,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -31171,7 +31171,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m57E2E8C8E445E83970D9B48553752CAD
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179*>(__this + _offset);
 	TrackableChanges_1__ctor_m57E2E8C8E445E83970D9B48553752CADFA34FF74(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179 TrackableChanges_1_CopyFrom_mEB5973EBD1D188109B97E6D427660D67AF5F8712_gshared (NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 ___0_added, NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31188,31 +31188,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C29
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_mEEC4BBA3C0F00EFFF6EBCCAFCA1EB7F539494FA9((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_mD7AA8125519C235C250E28C485752B186B718D1F((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_mEEC4BBA3C0F00EFFF6EBCCAFCA1EB7F539494FA9((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_9 = V_0;
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -31222,7 +31222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C29
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_mD897F6FDA80053D9BF0649ABEF887D1F083D9B4F_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31232,7 +31232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_mD897F6FDA800
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m90AB2CAA0FFC26A3AEC062C087DCBA6AEB65F2D8_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -31241,22 +31241,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_mD897F6FDA800
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18* L_1 = (NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18*)(&__this->___m_Added);
 		NativeArray_1_Dispose_m80A209FB6697E90878767A59FFF11D6AECA39ADD(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18* L_2 = (NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_m80A209FB6697E90878767A59FFF11D6AECA39ADD(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -31267,22 +31267,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_mD897F6FDA80053D9BF0649ABEF887D
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179*>(__this + _offset);
 	TrackableChanges_1_Dispose_mD897F6FDA80053D9BF0649ABEF887D1F083D9B4F(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mFD68C1115E651FC47E43FA6FCF3FEC27875F2934_gshared (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 ___0_added, NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -31301,11 +31301,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mFD68C1115E651FC47E43FA6FCF3FEC27
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 TrackableChanges_1_get_added_m70D12E81238EC594E30C43C3424179CE3FDAF997_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -31319,11 +31319,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 Trackab
 	_returnValue = TrackableChanges_1_get_added_m70D12E81238EC594E30C43C3424179CE3FDAF997_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 TrackableChanges_1_get_updated_mA402A5817BED7CADC3B21586992F1B6DEE46977D_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -31337,11 +31337,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 Trackab
 	_returnValue = TrackableChanges_1_get_updated_mA402A5817BED7CADC3B21586992F1B6DEE46977D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mC1922F39F12FBF4AD75D9B02595FA5CEC029DE4C_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -31355,11 +31355,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_mC1922F39F12FBF4AD75D9B02595FA5CEC029DE4C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m26064CCB0959240C110FA23C2279BD1974ABF3F1_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -31373,11 +31373,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m26064CCB0959240C110FA23C
 	_returnValue = TrackableChanges_1_get_isCreated_m26064CCB0959240C110FA23C2279BD1974ABF3F1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -31390,7 +31390,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC3
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m004A41E7148E50C6F21D89E518AB4CA1D26B7515_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31400,30 +31400,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m004A41E7148E50
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -31434,7 +31434,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m004A41E7148E50C6F21D89E518AB4CA1
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89*>(__this + _offset);
 	TrackableChanges_1__ctor_m004A41E7148E50C6F21D89E518AB4CA1D26B7515(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m50D081747CA0910C93E2262873CDFAAE41545D41_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31444,30 +31444,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m50D081747CA091
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m5A82D69222D70FB1D1D3F8DE833F84C1E80E0BAC(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m5A82D69222D70FB1D1D3F8DE833F84C1E80E0BAC(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -31478,7 +31478,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m50D081747CA0910C93E2262873CDFAAE
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89*>(__this + _offset);
 	TrackableChanges_1__ctor_m50D081747CA0910C93E2262873CDFAAE41545D41(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m86FF832095618F3232DAC4FD1E9DD60AE252BFB3_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31489,7 +31489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m86FF832095618F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -31498,7 +31498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m86FF832095618F
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_mF13AB06CC703EF88ACF74D021D75DEB3296DA31F(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -31507,14 +31507,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m86FF832095618F
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_mF13AB06CC703EF88ACF74D021D75DEB3296DA31F(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -31522,7 +31522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m86FF832095618F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -31534,9 +31534,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m86FF832095618F
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -31547,7 +31547,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m86FF832095618F3232DAC4FD1E9DD60A
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89*>(__this + _offset);
 	TrackableChanges_1__ctor_m86FF832095618F3232DAC4FD1E9DD60AE252BFB3(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m56AF0FF8E39E3E1AE24BA927B4B1C1C8385FC401_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31570,16 +31570,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m56AF0FF8E39E3E
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -31587,7 +31587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m56AF0FF8E39E3E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -31627,25 +31627,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_9;
 				L_9 = InterfaceFuncInvoker0< XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0* L_10 = (NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -31667,16 +31667,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -31684,7 +31684,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -31724,25 +31724,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_25;
 				L_25 = InterfaceFuncInvoker0< XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0* L_26 = (NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -31764,16 +31764,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -31781,7 +31781,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -31821,25 +31821,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -31861,9 +31861,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -31874,7 +31874,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m56AF0FF8E39E3E1AE24BA927B4B1C1C8
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89*>(__this + _offset);
 	TrackableChanges_1__ctor_m56AF0FF8E39E3E1AE24BA927B4B1C1C8385FC401(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89 TrackableChanges_1_CopyFrom_m2F0C12D99AC9C2201A518A15BA454BCA0BC494AD_gshared (NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 ___0_added, NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31891,31 +31891,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t33787F6E969DAC65E8C2FD57F
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_m491C1C995A90E8BFB0C10C24A5A1729EC7DA09AB((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_mDC183B8E025B1A55DC178981EDE28DC1A82261D7((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_m491C1C995A90E8BFB0C10C24A5A1729EC7DA09AB((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_9 = V_0;
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -31925,7 +31925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t33787F6E969DAC65E8C2FD57F
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m0DA253B493A9CA90B2041F84323C657A754A4E0B_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31935,7 +31935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m0DA253B493A9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m26064CCB0959240C110FA23C2279BD1974ABF3F1_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -31944,22 +31944,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_m0DA253B493A9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0* L_1 = (NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0*)(&__this->___m_Added);
 		NativeArray_1_Dispose_mCACF996F78637633C298C99A036CFA9F0B03D0E5(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0* L_2 = (NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_mCACF996F78637633C298C99A036CFA9F0B03D0E5(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -31970,22 +31970,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_m0DA253B493A9CA90B2041F84323C65
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89*>(__this + _offset);
 	TrackableChanges_1_Dispose_m0DA253B493A9CA90B2041F84323C657A754A4E0B(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mF34582753D9DD7F403CCEC9FB6C9AB41D9A16567_gshared (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 ___0_added, NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -32004,11 +32004,11 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mF34582753D9DD7F403CCEC9FB6C9AB41
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 TrackableChanges_1_get_added_mD05A737F5E0A81551D98588E3BBC65929C251D66_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_0 = __this->___m_Added;
 		return L_0;
 	}
@@ -32022,11 +32022,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 Trackab
 	_returnValue = TrackableChanges_1_get_added_mD05A737F5E0A81551D98588E3BBC65929C251D66_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 TrackableChanges_1_get_updated_m4109014DF86EF150F2FABAE4B233BF5C0E00EC62_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_0 = __this->___m_Updated;
 		return L_0;
 	}
@@ -32040,11 +32040,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 Trackab
 	_returnValue = TrackableChanges_1_get_updated_m4109014DF86EF150F2FABAE4B233BF5C0E00EC62_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m1222D007D2E6287B7FEA32874414C59A5CB1DE23_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
@@ -32058,11 +32058,11 @@ IL2CPP_EXTERN_C  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E Trackab
 	_returnValue = TrackableChanges_1_get_removed_m1222D007D2E6287B7FEA32874414C59A5CB1DE23_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m0A8DD389F421C2F49B40ABCC2D6CE842F400BAC6_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -32076,11 +32076,11 @@ IL2CPP_EXTERN_C  bool TrackableChanges_1_get_isCreated_m0A8DD389F421C2F49B40ABCC
 	_returnValue = TrackableChanges_1_get_isCreated_m0A8DD389F421C2F49B40ABCC2D6CE842F400BAC6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
@@ -32093,7 +32093,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5*>(__this + _offset);
 	TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 117145
+// Method Definition Index: 117147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mA4C08F16A8A22CA20D702025D08497DFD54D569A_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32103,30 +32103,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mA4C08F16A8A22C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:57>
 		int32_t L_0 = ___0_addedCount;
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:58>
 		int32_t L_3 = ___1_updatedCount;
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&L_5), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:59>
 		int32_t L_6 = ___2_removedCount;
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_8), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:60>
 		TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:61>
 		return;
 	}
 }
@@ -32137,7 +32137,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mA4C08F16A8A22CA20D702025D08497DF
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5*>(__this + _offset);
 	TrackableChanges_1__ctor_mA4C08F16A8A22CA20D702025D08497DFD54D569A(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, method);
 }
-// Method Definition Index: 117146
+// Method Definition Index: 117148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mFCA0613EFA384077BA483F7FADFFD55F6FCE5CFB_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, int32_t ___0_addedCount, int32_t ___1_updatedCount, int32_t ___2_removedCount, int32_t ___3_allocator, XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 ___4_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32147,30 +32147,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mFCA0613EFA3840
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:80>
 		XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_0 = ___4_defaultValue;
 		int32_t L_1 = ___0_addedCount;
 		int32_t L_2 = ___3_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_3;
 		L_3 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mEB44B8A682264717B44069C2C7F12402869CD7F1(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Added = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:81>
 		XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_4 = ___4_defaultValue;
 		int32_t L_5 = ___1_updatedCount;
 		int32_t L_6 = ___3_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_7;
 		L_7 = NativeCopyUtility_CreateArrayFilledWithValue_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mEB44B8A682264717B44069C2C7F12402869CD7F1(L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		__this->___m_Updated = L_7;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:82>
 		int32_t L_8 = ___2_removedCount;
 		int32_t L_9 = ___3_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_10), L_8, L_9, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:83>
 		TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:84>
 		return;
 	}
 }
@@ -32181,7 +32181,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mFCA0613EFA384077BA483F7FADFFD55F
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5*>(__this + _offset);
 	TrackableChanges_1__ctor_mFCA0613EFA384077BA483F7FADFFD55F6FCE5CFB(_thisAdjusted, ___0_addedCount, ___1_updatedCount, ___2_removedCount, ___3_allocator, ___4_defaultValue, method);
 }
-// Method Definition Index: 117147
+// Method Definition Index: 117149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB681BD9D3A46140C4ACCD96865A0A4E8AED3C0D9_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32192,7 +32192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB681BD9D3A4614
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:114>
 		XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_0 = ___6_defaultT;
 		void* L_1 = ___0_addedPtr;
 		int32_t L_2 = ___7_stride;
@@ -32201,7 +32201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB681BD9D3A4614
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_5;
 		L_5 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_m9D219AC5C947023807407B8A78D0B985F02FEB41(L_0, L_1, L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Added = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:115>
 		XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_6 = ___6_defaultT;
 		void* L_7 = ___2_updatedPtr;
 		int32_t L_8 = ___7_stride;
@@ -32210,14 +32210,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB681BD9D3A4614
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_11;
 		L_11 = NativeCopyUtility_PtrToNativeArrayWithDefault_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_m9D219AC5C947023807407B8A78D0B985F02FEB41(L_6, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		__this->___m_Updated = L_11;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:116>
 		int32_t L_12 = ___5_removedCount;
 		int32_t L_13 = ___8_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_14), L_12, L_13, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:117>
 		int32_t L_15 = ___5_removedCount;
 		if ((((int32_t)L_15) <= ((int32_t)0)))
 		{
@@ -32225,7 +32225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB681BD9D3A4614
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:119>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_16 = __this->___m_Removed;
 		void* L_17;
 		L_17 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA(L_16, NativeArrayUnsafeUtility_GetUnsafePtr_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m32DA5E8A5EB26D4BC8A9043C148F56FE6DC287AA_RuntimeMethod_var);
@@ -32237,9 +32237,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB681BD9D3A4614
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:121>
 		TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:122>
 		return;
 	}
 }
@@ -32250,7 +32250,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_mB681BD9D3A46140C4ACCD96865A0A4E8
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5*>(__this + _offset);
 	TrackableChanges_1__ctor_mB681BD9D3A46140C4ACCD96865A0A4E8AED3C0D9(_thisAdjusted, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
 }
-// Method Definition Index: 117148
+// Method Definition Index: 117150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m44616CD630E7C5A0E8D2DE2ACF71425F414F3FA9_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, RuntimeObject* ___0_added, int32_t ___1_addedCount, RuntimeObject* ___2_updated, int32_t ___3_updatedCount, RuntimeObject* ___4_removed, int32_t ___5_removedCount, int32_t ___6_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32273,16 +32273,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m44616CD630E7C5
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:140>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:141>
 		int32_t L_0 = ___1_addedCount;
 		int32_t L_1 = ___6_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&L_2), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Added = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:142>
 		RuntimeObject* L_3 = ___0_added;
 		if (!L_3)
 		{
@@ -32290,7 +32290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m44616CD630E7C5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 		RuntimeObject* L_4 = ___0_added;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -32330,25 +32330,25 @@ IL_0048:
 
 IL_001d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_9;
 				L_9 = InterfaceFuncInvoker0< XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:146>
 				NativeArray_1_t43267D13364B938F522273E473A86557B971CD63* L_10 = (NativeArray_1_t43267D13364B938F522273E473A86557B971CD63*)(&__this->___m_Added);
 				int32_t L_11 = V_0;
 				XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_12 = V_2;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103, (L_10)->___m_Buffer, L_11, (L_12));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:147>
 				int32_t L_13 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 			}
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:144>
 				RuntimeObject* L_14 = V_1;
 				NullCheck((RuntimeObject*)L_14);
 				bool L_15;
@@ -32370,16 +32370,16 @@ IL_0035_1:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:151>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:152>
 		int32_t L_16 = ___3_updatedCount;
 		int32_t L_17 = ___6_allocator;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&L_18), L_16, L_17, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		__this->___m_Updated = L_18;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:153>
 		RuntimeObject* L_19 = ___2_updated;
 		if (!L_19)
 		{
@@ -32387,7 +32387,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 		RuntimeObject* L_20 = ___2_updated;
 		NullCheck(L_20);
 		RuntimeObject* L_21;
@@ -32427,25 +32427,25 @@ IL_0092:
 
 IL_0067_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_24 = V_1;
 				NullCheck(L_24);
 				XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_25;
 				L_25 = InterfaceFuncInvoker0< XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_24);
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:157>
 				NativeArray_1_t43267D13364B938F522273E473A86557B971CD63* L_26 = (NativeArray_1_t43267D13364B938F522273E473A86557B971CD63*)(&__this->___m_Updated);
 				int32_t L_27 = V_0;
 				XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 L_28 = V_3;
 				IL2CPP_NATIVEARRAY_SET_ITEM(XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103, (L_26)->___m_Buffer, L_27, (L_28));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:158>
 				int32_t L_29 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 			}
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:155>
 				RuntimeObject* L_30 = V_1;
 				NullCheck((RuntimeObject*)L_30);
 				bool L_31;
@@ -32467,16 +32467,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:162>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:163>
 		int32_t L_32 = ___5_removedCount;
 		int32_t L_33 = ___6_allocator;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&L_34), L_32, L_33, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
 		__this->___m_Removed = L_34;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:164>
 		RuntimeObject* L_35 = ___4_removed;
 		if (!L_35)
 		{
@@ -32484,7 +32484,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 		RuntimeObject* L_36 = ___4_removed;
 		NullCheck(L_36);
 		RuntimeObject* L_37;
@@ -32524,25 +32524,25 @@ IL_00e5:
 
 IL_00b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_40 = V_4;
 				NullCheck(L_40);
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_41;
 				L_41 = InterfaceFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(0, IEnumerator_1_t2557B182B4DA8CF69ADF0AF780E1D7C1B9ACAC1D_il2cpp_TypeInfo_var, L_40);
 				V_5 = L_41;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:168>
 				NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_42 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 				int32_t L_43 = V_0;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_44 = V_5;
 				IL2CPP_NATIVEARRAY_SET_ITEM(TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, (L_42)->___m_Buffer, L_43, (L_44));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:169>
 				int32_t L_45 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 			}
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:166>
 				RuntimeObject* L_46 = V_4;
 				NullCheck((RuntimeObject*)L_46);
 				bool L_47;
@@ -32564,9 +32564,9 @@ IL_00cf_1:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:173>
 		TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:174>
 		return;
 	}
 }
@@ -32577,7 +32577,7 @@ IL2CPP_EXTERN_C  void TrackableChanges_1__ctor_m44616CD630E7C5A0E8D2DE2ACF71425F
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5*>(__this + _offset);
 	TrackableChanges_1__ctor_m44616CD630E7C5A0E8D2DE2ACF71425F414F3FA9(_thisAdjusted, ___0_added, ___1_addedCount, ___2_updated, ___3_updatedCount, ___4_removed, ___5_removedCount, ___6_allocator, method);
 }
-// Method Definition Index: 117149
+// Method Definition Index: 117151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5 TrackableChanges_1_CopyFrom_mCAC01FF427C761F9ABE073E6755CC5966B80B5F9_gshared (NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 ___0_added, NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, int32_t ___3_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32594,31 +32594,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t097463074AB33F65828FED315
 	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:191>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_added))->___m_Length);
 		int32_t L_1 = ___3_allocator;
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&V_0), L_0, L_1, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:192>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_2 = ___0_added;
 		NativeArray_1_CopyFrom_m87E55E88163CE22307DAAA944B80D7BE5203042D((&V_0), L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:194>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_updated))->___m_Length);
 		int32_t L_4 = ___3_allocator;
 		NativeArray_1__ctor_mDF68F0A55BC88CA530F3FC16BD7C0D5C1DA4BF08((&V_1), L_3, L_4, (int32_t)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:195>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_5 = ___1_updated;
 		NativeArray_1_CopyFrom_m87E55E88163CE22307DAAA944B80D7BE5203042D((&V_1), L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:197>
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_removed))->___m_Length);
 		int32_t L_7 = ___3_allocator;
 		NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05((&V_2), L_6, L_7, (int32_t)1, NativeArray_1__ctor_mD9382D3B117D70EAC1175E75F284AE4C99A78B05_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:198>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_8 = ___2_removed;
 		NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937((&V_2), L_8, NativeArray_1_CopyFrom_mBAB9C56019387190442B80CE4A33D62B6E558937_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:200>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_9 = V_0;
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_10 = V_1;
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_11 = V_2;
@@ -32628,7 +32628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t097463074AB33F65828FED315
 		return L_12;
 	}
 }
-// Method Definition Index: 117150
+// Method Definition Index: 117152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_mA7046F1D7927BCC10E6A645D7DBD6DE14334D22F_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32638,7 +32638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_mA7046F1D7927
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:209>
 		bool L_0;
 		L_0 = TrackableChanges_1_get_isCreated_m0A8DD389F421C2F49B40ABCC2D6CE842F400BAC6_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		if (!L_0)
@@ -32647,22 +32647,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1_Dispose_mA7046F1D7927
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:211>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63* L_1 = (NativeArray_1_t43267D13364B938F522273E473A86557B971CD63*)(&__this->___m_Added);
 		NativeArray_1_Dispose_m64EC2CC0891F6540B1918476939F675E6D7B3421(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:212>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63* L_2 = (NativeArray_1_t43267D13364B938F522273E473A86557B971CD63*)(&__this->___m_Updated);
 		NativeArray_1_Dispose_m64EC2CC0891F6540B1918476939F675E6D7B3421(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:213>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E* L_3 = (NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E*)(&__this->___m_Removed);
 		NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5(L_3, NativeArray_1_Dispose_m40A4EC12FE6BFB93C584913BB2C46CC09CADE7B5_RuntimeMethod_var);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:216>
 		TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(__this, (bool)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:217>
 		return;
 	}
 }
@@ -32673,22 +32673,22 @@ IL2CPP_EXTERN_C  void TrackableChanges_1_Dispose_mA7046F1D7927BCC10E6A645D7DBD6D
 	_thisAdjusted = reinterpret_cast<TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5*>(__this + _offset);
 	TrackableChanges_1_Dispose_mA7046F1D7927BCC10E6A645D7DBD6DE14334D22F(_thisAdjusted, method);
 }
-// Method Definition Index: 117151
+// Method Definition Index: 117153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_m0F7874F98CF974909B990EAFABFB289B84A24458_gshared (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 ___0_added, NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 ___1_updated, NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___2_removed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:224>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_0 = ___0_added;
 		__this->___m_Added = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:225>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_1 = ___1_updated;
 		__this->___m_Updated = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:226>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_2 = ___2_removed;
 		__this->___m_Removed = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:227>
 		TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_inline(__this, (bool)1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:228>
 		return;
 	}
 }
@@ -34104,415 +34104,415 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m930
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70, Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C TrackableChanges_1_get_added_mC037C36B7D453AAE716DAAFC0D9239E9F8CCB48E_gshared_inline (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C TrackableChanges_1_get_updated_mDE93310564C5B2AE9E228517AADCC2DBC003390D_gshared_inline (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t36CA775B66FDBC3A63AF9ABB6E32E8F6B41F824C L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mB8F9C7A8ACE020538F7CA79A418D2EAE6E9D632B_gshared_inline (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m7D1D41E1C5F00F03CBD717C2EB5F9343A4E83776_gshared_inline (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mE66E2D916584BA8069DF1B2223B224E8575ED6C0_gshared_inline (TrackableChanges_1_tFC79B2E1FF9EFB1D5754F6995583D33A519F300F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A TrackableChanges_1_get_added_m247464F980D46DD4B1BC63D35DEF4F0B10835FB7_gshared_inline (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A TrackableChanges_1_get_updated_mF8CD50C65A76F68ED3EFCE8A4316153A2CAF3999_gshared_inline (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_tAE2F2F17B6A4F98F44324897A00F6A9D2151DC3A L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m0E574DBEEC409628E125B65A3437EA9C9D73F06F_gshared_inline (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_mCA53CD4537E312974D468BF8FCC60504C3E59E1C_gshared_inline (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mA29F563A5EE0205737664A8F49462F732FCE1F49_gshared_inline (TrackableChanges_1_t6971CD7F709E7353F4365FE06A109B21A0F0C931* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 TrackableChanges_1_get_added_mCAE3284E718CD7C73A89F7B4135DECAC1217D5AF_gshared_inline (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 TrackableChanges_1_get_updated_mD31BA0CBD5A9F800D1C68B22D7C2B87E4779E31A_gshared_inline (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_tC4A81087A69EB70E412E0F4AAC574880C05C7023 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mF93FA9845EB817E45D1A36B61CFE9AED8D065399_gshared_inline (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m70418625E04DFE74E5F6636F8EE60DD1D7874A53_gshared_inline (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mFF1505D4C66902BC50CF6F15C7750EA1D6DCA91A_gshared_inline (TrackableChanges_1_tF1EF405BDA66D5E67EA993C7A9C0FF1F8A736FA9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 TrackableChanges_1_get_added_m8E0E28C84E03CC94A82F70D77D5E8F753F39363A_gshared_inline (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 TrackableChanges_1_get_updated_mB7A87D602027E36E117065D68A04692716D37388_gshared_inline (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t27110FD746D2F878E09169A93400CE1027082DA2 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mB692C4B8E9682871345D028184FD08CA66224E56_gshared_inline (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_mAB66CB342D0348AD359E751CBF652367F62D27BE_gshared_inline (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m5F70D1FDBA7B71151FCADEB49E13991B422953EC_gshared_inline (TrackableChanges_1_t03BF8B384A61E7421A4748384189C50C3A2C323F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 TrackableChanges_1_get_added_mC976D7B10EA3881871F38F0098CB782D2B4F3CC0_gshared_inline (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 TrackableChanges_1_get_updated_m7600C09050F548113163F28357515FA195925891_gshared_inline (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m8B0967F38BE46C987E2C0A104323BBCD97AB8927_gshared_inline (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m40C3038EDC1A69C69429E994ED5B0D2962FA4ABE_gshared_inline (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m2DF13DCC82101A8992CB0700E9F0107B4E0D385C_gshared_inline (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 TrackableChanges_1_get_added_m7F31AA8A5F6934F83681E8BD6BBA797F87E5D1E0_gshared_inline (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 TrackableChanges_1_get_updated_mC79BCE7C56B99C53E6340EB5683F7DEDF1C3AA8E_gshared_inline (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t5B6781386C81B6DAD0A46599F36186F644DC17D0 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m9ED605C97CF3E20830DA7B6811B123B09C1B2585_gshared_inline (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m123EE042163794B57AA010AD69EF9CEBF4F4AE3C_gshared_inline (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m49E1F1A979F57BF19A4CBD705A9780CC3677B19C_gshared_inline (TrackableChanges_1_tAB0D56187755251BCF253FBC179ABFC1B18E00C6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 TrackableChanges_1_get_added_m2714528A85AD89BB5AE0B787A18075BDD7A1BA43_gshared_inline (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 TrackableChanges_1_get_updated_mF251EA97C101253BDB1E04A445EAA9FCA661A92F_gshared_inline (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t79743910830B59034ED2B060D4E1D0EC70226E18 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m0EEB7A1BF5560F7C48AA75AC3E487363F2FDBEE7_gshared_inline (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m90AB2CAA0FFC26A3AEC062C087DCBA6AEB65F2D8_gshared_inline (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m20774B34759245B9DBF4FE237F58E4D043AFD199_gshared_inline (TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C2911626A1C9140179* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 TrackableChanges_1_get_added_m70D12E81238EC594E30C43C3424179CE3FDAF997_gshared_inline (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 TrackableChanges_1_get_updated_mA402A5817BED7CADC3B21586992F1B6DEE46977D_gshared_inline (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t50096787A7C7D874EC2A53B03F61419BE240D9C0 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_mC1922F39F12FBF4AD75D9B02595FA5CEC029DE4C_gshared_inline (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m26064CCB0959240C110FA23C2279BD1974ABF3F1_gshared_inline (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_m4DB7C6F729DB6AC705597FC356E415383F0453A4_gshared_inline (TrackableChanges_1_t33787F6E969DAC65E8C2FD57FE6AAC9119CFDB89* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 117140
+// Method Definition Index: 117142
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 TrackableChanges_1_get_added_mD05A737F5E0A81551D98588E3BBC65929C251D66_gshared_inline (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:22>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_0 = __this->___m_Added;
 		return L_0;
 	}
 }
-// Method Definition Index: 117141
+// Method Definition Index: 117143
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 TrackableChanges_1_get_updated_m4109014DF86EF150F2FABAE4B233BF5C0E00EC62_gshared_inline (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:27>
 		NativeArray_1_t43267D13364B938F522273E473A86557B971CD63 L_0 = __this->___m_Updated;
 		return L_0;
 	}
 }
-// Method Definition Index: 117142
+// Method Definition Index: 117144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E TrackableChanges_1_get_removed_m1222D007D2E6287B7FEA32874414C59A5CB1DE23_gshared_inline (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:32>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_0 = __this->___m_Removed;
 		return L_0;
 	}
 }
-// Method Definition Index: 117143
+// Method Definition Index: 117145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackableChanges_1_get_isCreated_m0A8DD389F421C2F49B40ABCC2D6CE842F400BAC6_gshared_inline (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = __this->___U3CisCreatedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 117144
+// Method Definition Index: 117146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackableChanges_1_set_isCreated_mC06D3F5E1C860800A4197F39156E32BDB5AFD4CD_gshared_inline (TrackableChanges_1_t097463074AB33F65828FED3152F6A605C0B114A5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/TrackableChanges.cs:37>
 		bool L_0 = ___0_value;
 		__this->___U3CisCreatedU3Ek__BackingField = L_0;
 		return;

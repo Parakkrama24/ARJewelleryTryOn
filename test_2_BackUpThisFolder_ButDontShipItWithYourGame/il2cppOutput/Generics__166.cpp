@@ -10779,7 +10779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* UxmlTypeAttributeDescription_1_U3CGet
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117154
+// Method Definition Index: 117156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_ValidateAndThrow_mED06A697DF213100F48B7C2B161BD3CBF451516A_gshared (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B* __this, TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD ___0_changes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10820,12 +10820,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_ValidateAndThrow_mED
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
 		HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_0 = ((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_IdSet;
 		NullCheck(L_0);
 		HashSet_1_Clear_mE670A045EF43E4C8EB403A7EBAAD4B88C3C4008F(L_0, HashSet_1_Clear_mE670A045EF43E4C8EB403A7EBAAD4B88C3C4008F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:25>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_1;
 		L_1 = ((  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 (*) (TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))((&___0_changes), il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		V_1 = L_1;
@@ -10850,16 +10850,16 @@ FINALLY_0061:
 
 IL_001c_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:25>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:25>
 				InvokerActionInvoker1< Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)), il2cpp_rgctx_method(method->klass->rgctx_data, 9), (Enumerator_t82F77221EB09A3A14061DC0C6965526D856BC405*)V_0, (Il2CppFullySharedGenericStruct*)L_4);
 				il2cpp_codegen_memcpy(V_2, L_4, SizeOf_T_t0E25A4B26FF79251CAB9D7C9C4283C339BC1F05F);
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:27>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:27>
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_6;
 				L_6 = ConstrainedFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(il2cpp_rgctx_data(method->klass->rgctx_data, 11), il2cpp_rgctx_method(method->klass->rgctx_data, 12), L_5, (void*)(Il2CppFullySharedGenericStruct*)V_2);
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
 				String_t* L_7 = ((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___k_AddedAction;
 				((  void (*) (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B*, TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, bool, String_t*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)))(__this, L_6, (bool)0, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:28>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:28>
 				HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_8 = __this->___m_Trackables;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_10;
 				L_10 = ConstrainedFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(il2cpp_rgctx_data(method->klass->rgctx_data, 11), il2cpp_rgctx_method(method->klass->rgctx_data, 12), L_9, (void*)(Il2CppFullySharedGenericStruct*)V_2);
@@ -10870,7 +10870,7 @@ IL_001c_1:
 
 IL_0056_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:25>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:25>
 				bool L_12;
 				L_12 = ((  bool (*) (Enumerator_t82F77221EB09A3A14061DC0C6965526D856BC405*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)))((Enumerator_t82F77221EB09A3A14061DC0C6965526D856BC405*)V_0, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 				if (L_12)
@@ -10890,7 +10890,7 @@ IL_0056_1:
 
 IL_006f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:31>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_13;
 		L_13 = ((  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 (*) (TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 16)))((&___0_changes), il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		V_1 = L_13;
@@ -10915,10 +10915,10 @@ FINALLY_00ad:
 
 IL_0081_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:31>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:31>
 				InvokerActionInvoker1< Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)), il2cpp_rgctx_method(method->klass->rgctx_data, 9), (Enumerator_t82F77221EB09A3A14061DC0C6965526D856BC405*)V_0, (Il2CppFullySharedGenericStruct*)L_16);
 				il2cpp_codegen_memcpy(V_3, L_16, SizeOf_T_t0E25A4B26FF79251CAB9D7C9C4283C339BC1F05F);
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:32>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:32>
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_18;
 				L_18 = ConstrainedFuncInvoker0< TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 >::Invoke(il2cpp_rgctx_data(method->klass->rgctx_data, 11), il2cpp_rgctx_method(method->klass->rgctx_data, 12), L_17, (void*)(Il2CppFullySharedGenericStruct*)V_3);
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
@@ -10928,7 +10928,7 @@ IL_0081_1:
 
 IL_00a2_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:31>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:31>
 				bool L_20;
 				L_20 = ((  bool (*) (Enumerator_t82F77221EB09A3A14061DC0C6965526D856BC405*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)))((Enumerator_t82F77221EB09A3A14061DC0C6965526D856BC405*)V_0, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 				if (L_20)
@@ -10948,7 +10948,7 @@ IL_00a2_1:
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:34>
 		NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E L_21;
 		L_21 = ((  NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E (*) (TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))((&___0_changes), il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		V_5 = L_21;
@@ -10974,16 +10974,16 @@ FINALLY_00ff:
 
 IL_00cf_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:34>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:34>
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_23;
 				L_23 = Enumerator_get_Current_m572F715FD6838E37154726E5A6DB2C103236C7C6_inline((&V_4), Enumerator_get_Current_m572F715FD6838E37154726E5A6DB2C103236C7C6_RuntimeMethod_var);
 				V_6 = L_23;
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:36>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:36>
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_24 = V_6;
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
 				String_t* L_25 = ((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___k_RemovedAction;
 				((  void (*) (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B*, TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7, bool, String_t*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)))(__this, L_24, (bool)1, L_25, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:37>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:37>
 				HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_26 = __this->___m_Trackables;
 				TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_27 = V_6;
 				NullCheck(L_26);
@@ -10993,7 +10993,7 @@ IL_00cf_1:
 
 IL_00f4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:34>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:34>
 				bool L_29;
 				L_29 = Enumerator_MoveNext_mCB14CFB321C975B0DF69A927ACD4BD2A63AF0368_inline((&V_4), Enumerator_MoveNext_mCB14CFB321C975B0DF69A927ACD4BD2A63AF0368_RuntimeMethod_var);
 				if (L_29)
@@ -11013,11 +11013,11 @@ IL_00f4_1:
 
 IL_010d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 117155
+// Method Definition Index: 117157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_ValidateAndDisposeIfThrown_m186C0530B424648DC9163A117AC16C7814021F51_gshared (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B* __this, TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD ___0_changes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11032,7 +11032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_ValidateAndDisposeIf
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:49>
+			//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:49>
 			ScopedProfiler_tA2CF63F6C047FB63643D2263A4AC86C6A363EC6F L_0;
 			memset((&L_0), 0, sizeof(L_0));
 			ScopedProfiler__ctor_m652B5689DE1A3C3EF7D12801DA27FA3B40E4412F((&L_0), _stringLiteral4C79343CCFF8116F7E4B034A1449CE4FCED19561, NULL);
@@ -11050,7 +11050,7 @@ FINALLY_0014_1:
 			});
 			try
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:50>
+				//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:50>
 				TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD L_1 = ___0_changes;
 				((  void (*) (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B*, TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 				goto IL_0022_1;
@@ -11063,7 +11063,7 @@ FINALLY_0014_1:
 
 IL_0022_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:51>
+			//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:51>
 			goto IL_002e;
 		}
 	}
@@ -11080,20 +11080,20 @@ IL_0022_1:
 CATCH_0024:
 	{
 		RuntimeObject* L_2 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:52>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:54>
 		((  void (*) (TrackableChanges_1_t766C81F173FAD10AE2354632C3ED8BC00F0F55FD*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))((&___0_changes), il2cpp_rgctx_method(method->klass->rgctx_data, 19));
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:55>
 		IL2CPP_RETHROW_MANAGED_EXCEPTION(IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*));
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 117156
+// Method Definition Index: 117158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_AddToSetAndThrowIfDuplicate_m247D1E714C165A0DE6C0173CEE8D69AEBEB11ADF_gshared (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B* __this, TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_trackableId, bool ___1_shouldBeInDictionary, String_t* ___2_action, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11114,7 +11114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_AddToSetAndThrowIfDu
 	RuntimeObject* G_B6_2 = NULL;
 	String_t* G_B6_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
 		HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_0 = ((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_IdSet;
 		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_1 = ___0_trackableId;
@@ -11127,10 +11127,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_AddToSetAndThrowIfDu
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:65>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:66>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:68>
 		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_3 = ___0_trackableId;
 		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_4 = L_3;
 		RuntimeObject* L_5 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_il2cpp_TypeInfo_var)), &L_4);
@@ -11144,7 +11144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1_AddToSetAndThrowIfDu
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:70>
 		HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_9 = __this->___m_Trackables;
 		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_10 = ___0_trackableId;
 		NullCheck(L_9);
@@ -11157,9 +11157,9 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:71>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:72>
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:73>
 		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_13 = ___0_trackableId;
 		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_14 = L_13;
 		RuntimeObject* L_15 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_il2cpp_TypeInfo_var)), &L_14);
@@ -11203,11 +11203,11 @@ IL_004e:
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 117157
+// Method Definition Index: 117159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1__ctor_mF665766EE82FB34B9281209C0E80320FA84FC9F7_gshared (ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11218,7 +11218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1__ctor_mF665766EE82FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:84>
 		HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_0 = (HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B*)il2cpp_codegen_object_new(HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m9C4751E6D978C5B862FAD4EBBD3BD342754B2705(L_0, HashSet_1__ctor_m9C4751E6D978C5B862FAD4EBBD3BD342754B2705_RuntimeMethod_var);
 		__this->___m_Trackables = L_0;
@@ -11227,7 +11227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1__ctor_mF665766EE82FB
 		return;
 	}
 }
-// Method Definition Index: 117158
+// Method Definition Index: 117160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1__cctor_m9828D47613A24B519E1558C5FFEB878F8E0300D5_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11241,18 +11241,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValidationUtility_1__cctor_m9828D47613A2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:76>
 		HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B* L_0 = (HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B*)il2cpp_codegen_object_new(HashSet_1_t334D266E4EE1D734DA9BE394D4C70C23DF6CDE7B_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m9C4751E6D978C5B862FAD4EBBD3BD342754B2705(L_0, HashSet_1__ctor_m9C4751E6D978C5B862FAD4EBBD3BD342754B2705_RuntimeMethod_var);
 		((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_IdSet = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_IdSet), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:78>
 		((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___k_AddedAction = _stringLiteral65C1C19C5DCE012B3F039737BBD66B69DDD21B86;
 		Il2CppCodeGenWriteBarrier((void**)(&((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___k_AddedAction), (void*)_stringLiteral65C1C19C5DCE012B3F039737BBD66B69DDD21B86);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:80>
 		((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___k_UpdatedAction = _stringLiteral31AF3B46A9C24926F0A4D3B78C9A7DD2500DACFE;
 		Il2CppCodeGenWriteBarrier((void**)(&((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___k_UpdatedAction), (void*)_stringLiteral31AF3B46A9C24926F0A4D3B78C9A7DD2500DACFE);
-		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@c39f6abb3dd2/Runtime/ARSubsystems/TrackingSubsystem/ValidationUtility.cs:82>
 		((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___k_RemovedAction = _stringLiteralB008A4D70C23C4CA7F12FC5053B5803ECA08C362;
 		Il2CppCodeGenWriteBarrier((void**)(&((ValidationUtility_1_t944BE028D7711E3424AE989EB21FE5D46042C87B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___k_RemovedAction), (void*)_stringLiteralB008A4D70C23C4CA7F12FC5053B5803ECA08C362);
 		return;
