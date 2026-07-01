@@ -30,7 +30,21 @@ public class HandTrackingManager : MonoBehaviour
         if (!HasHand)
             return Vector3.zero;
 
-        var landmark = CurrentResult.handLandmarks[0].landmarks[landmarkIndex];
+        if (CurrentResult.handLandmarks.Count == 0)
+            return Vector3.zero;
+
+        var hand = CurrentResult.handLandmarks[0];
+
+        if (hand.landmarks == null)
+            return Vector3.zero;
+
+        if (landmarkIndex < 0 || landmarkIndex >= hand.landmarks.Count)
+        {
+            Debug.LogWarning($"Invalid landmark index {landmarkIndex}. Count = {hand.landmarks.Count}");
+            return Vector3.zero;
+        }
+
+        var landmark = hand.landmarks[landmarkIndex];
 
         return new Vector3(
             landmark.x,

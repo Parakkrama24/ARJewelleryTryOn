@@ -9,8 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ARDemo.unity
     guid: bcf431fb976036640a597c1870ebe96e
   - enabled: 1
-    path: Assets/_project/Scenes/Kneckless.unity
-    guid: 3a05236219883d547aff13ceb75159d7
+    path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
+      Detection.unity
+    guid: 98d49dcfe667ea822a91d6b74f7cb2e9
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}

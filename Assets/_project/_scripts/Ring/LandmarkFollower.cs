@@ -24,11 +24,47 @@ public class LandmarkFollower : MonoBehaviour
     [SerializeField] private float scaleMultiplier = 1.0f;
     [SerializeField] private float scaleSmoothSpeed = 10f;
 
+    [Header("HandSelection")]
+    [SerializeField] private int toggleHand = 1;
+
     private Vector3 originalScale;
+    private int fingerState = 0;
 
     private void Start()
     {
         originalScale = transform.localScale;
+    }
+
+
+    public void setFinger()
+    {
+        if (fingerState == 2)
+        {
+           fingerState = 0;
+        }
+        else
+        {
+            fingerState +=1;
+        }
+        switch (fingerState)
+        {
+            case 0:
+                startLandmark = 14;     // Ring finger MCP
+                endLandmark = 15;
+                break;
+            case 1:
+                startLandmark = 10;
+                endLandmark = 11;
+                break;
+            case 2:
+                startLandmark = 3; endLandmark = 4;
+                break;
+
+        }
+
+        Debug.Log("FingerState" + fingerState);
+        Debug.Log("Landmarks :"+startLandmark + " " + endLandmark);
+
     }
 
     private void Update()
@@ -92,6 +128,7 @@ public class LandmarkFollower : MonoBehaviour
             Quaternion targetRotation =
                 Quaternion.LookRotation(direction);
 
+            // rotationOffset.y = toggleHand * rotationOffset.y;
             targetRotation *= Quaternion.Euler(rotationOffset);
 
             transform.rotation = Quaternion.Slerp(
