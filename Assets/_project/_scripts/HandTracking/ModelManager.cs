@@ -4,6 +4,7 @@ public class ModelManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] ringModels;
 
+    [SerializeField]
     private int currentIndex = 0;
 
     

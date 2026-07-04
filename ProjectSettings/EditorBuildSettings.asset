@@ -6,12 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ARDemo.unity
-    guid: bcf431fb976036640a597c1870ebe96e
+    path: Assets/_project/Scenes/Home.unity
+    guid: 2c68f00ae6f854e408a2608a858abb25
   - enabled: 1
     path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
       Detection.unity
     guid: 98d49dcfe667ea822a91d6b74f7cb2e9
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
+      Detection 1.unity
+    guid: c7a2eb4a3576ea04581573a5de5666ed
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
+      Detection 2.unity
+    guid: 061eee130e1c1b2409273376d662a9bc
+  - enabled: 1
+    path: Assets/Scenes/ARDemo.unity
+    guid: bcf431fb976036640a597c1870ebe96e
+  - enabled: 1
+    path: Assets/Scenes/ARDemo 1.unity
+    guid: 6297935eb958b59439eb98fb19e0a7fe
+  - enabled: 1
+    path: Assets/Scenes/ARDemo 2.unity
+    guid: 253d7340de423e14eac82aacf57e5699
+  - enabled: 1
+    path: Assets/Scenes/ARDemo 3.unity
+    guid: 138b522f2a596a94cbf360301fc87864
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}
