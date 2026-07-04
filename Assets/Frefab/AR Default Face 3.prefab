@@ -214,7 +214,9 @@ PrefabInstance:
       value: earRing2 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
+    - {fileID: 7869873546869171050, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
@@ -653,8 +655,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: earRing2
       objectReference: {fileID: 0}
+    - target: {fileID: 3849762623622064168, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7869873546869171050, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
+    - {fileID: 65702495048144492, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 127f3dba365fe6e4f926ef2439876daf, type: 3}
       insertIndex: -1
