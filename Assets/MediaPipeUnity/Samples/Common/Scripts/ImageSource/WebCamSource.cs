@@ -33,6 +33,19 @@ namespace Mediapipe.Unity
         private static readonly object _PermissionLock = new object();
         private static bool _IsPermitted = false;
 
+        /// <summary>
+        /// Call this before loading a MediaPipe scene after leaving a Unity AR scene.
+        /// The AR camera session holds the camera exclusively; resetting this flag
+        /// forces GetPermission() to re-run so the camera is cleanly re-acquired.
+        /// </summary>
+        public static void ResetPermission()
+        {
+            lock (_PermissionLock)
+            {
+                _IsPermitted = false;
+            }
+        }
+
         private WebCamTexture _webCamTexture;
         private WebCamTexture webCamTexture
         {
