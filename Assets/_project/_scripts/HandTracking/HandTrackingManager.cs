@@ -8,6 +8,12 @@ public class HandTrackingManager : MonoBehaviour
 
     public HandLandmarkerResult CurrentResult { get; private set; }
 
+    // Fix 2: Per-landmark smoothing to reduce MediaPipe noise on mobile.
+    // _smoothing = 0 → no smoothing (raw values).
+    // _smoothing = 1 → fully frozen (never updates). Keep between 0.4–0.7.
+    [SerializeField] private float _smoothing = 0.6f;
+    private readonly Vector3[] _smoothedLandmarks = new Vector3[21];
+
     public bool HasHand =>
         CurrentResult.handLandmarks != null &&
         CurrentResult.handLandmarks.Count > 0;
@@ -45,12 +51,17 @@ public class HandTrackingManager : MonoBehaviour
         }
 
         var landmark = hand.landmarks[landmarkIndex];
+        Vector3 raw = new Vector3(landmark.x, landmark.y, landmark.z);
 
-        return new Vector3(
-            landmark.x,
-            landmark.y,
-            landmark.z
-        );
+        // Apply exponential low-pass filter to reduce per-frame jitter.
+        // On mobile, MediaPipe runs at lower FPS with noisier camera input,
+        // so raw landmarks jump noticeably without this filter.
+        _smoothedLandmarks[landmarkIndex] = Vector3.Lerp(
+            raw,
+            _smoothedLandmarks[landmarkIndex],
+            _smoothing);
+
+        return _smoothedLandmarks[landmarkIndex];
     }
 
     public Landmark GetWorldLandmark(int handIndex, int landmarkIndex)

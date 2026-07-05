@@ -25036,6 +25036,8 @@ struct HandDebugger_t608762F9FBEFFB6229ADF974ADF0A1B2F7694B52  : public MonoBeha
 struct HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	HandLandmarkerResult_tE460E90BE167FD4EC32B4BB34246F40E36A2417B ___U3CCurrentResultU3Ek__BackingField;
+	float ____smoothing;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ____smoothedLandmarks;
 };
 struct HandheldARInputDevice_tDC70607D65788F0D6A7BA2EABA6D289D15DFDCE9  : public InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B
 {
@@ -32175,9 +32177,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13204[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13205[3] = 
 {
 	static_cast<int32_t>(offsetof(HandDebugger_t608762F9FBEFFB6229ADF974ADF0A1B2F7694B52, ___landmarkPrefab)),static_cast<int32_t>(offsetof(HandDebugger_t608762F9FBEFFB6229ADF974ADF0A1B2F7694B52, ___mainCamera)),static_cast<int32_t>(offsetof(HandDebugger_t608762F9FBEFFB6229ADF974ADF0A1B2F7694B52, ___landmarks)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13206[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13206[4] = 
 {
-	static_cast<int32_t>(offsetof(HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982_StaticFields, ___U3CInstanceU3Ek__BackingField)),static_cast<int32_t>(offsetof(HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982, ___U3CCurrentResultU3Ek__BackingField)),};
+	static_cast<int32_t>(offsetof(HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982_StaticFields, ___U3CInstanceU3Ek__BackingField)),static_cast<int32_t>(offsetof(HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982, ___U3CCurrentResultU3Ek__BackingField)),static_cast<int32_t>(offsetof(HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982, ____smoothing)),static_cast<int32_t>(offsetof(HandTrackingManager_tB02B8A3526C0E4FF5E4634ECF65859E1DC949982, ____smoothedLandmarks)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13207[2] = 
 {
 	static_cast<int32_t>(offsetof(ModelManager_t3D23159AB6ADBE9A614057577339B6F5BC6EDE99, ___ringModels)),static_cast<int32_t>(offsetof(ModelManager_t3D23159AB6ADBE9A614057577339B6F5BC6EDE99, ___currentIndex)),};

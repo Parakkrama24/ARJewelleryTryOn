@@ -33,6 +33,13 @@ public class LandmarkFollower : MonoBehaviour
     private void Start()
     {
         originalScale = transform.localScale;
+
+        // Fix 3: On mobile, lower smooth speeds reduce jitter caused by
+        // GPU throttling, heat, and lower MediaPipe frame rates.
+#if UNITY_ANDROID || UNITY_IOS
+        smoothSpeed = 8f;
+        scaleSmoothSpeed = 5f;
+#endif
     }
 
 
@@ -93,15 +100,21 @@ public class LandmarkFollower : MonoBehaviour
         // Convert Ring Landmarks
         //----------------------------
 
+        // Fix 1: Use a physically correct camera depth instead of the hardcoded
+        // z=0.5f that caused the ring to jump when the phone was tilted on mobile.
+        // nearClipPlane + 0.3f places the ring just in front of the near plane
+        // regardless of camera orientation.
+        float renderDepth = mainCamera.nearClipPlane + 0.3f;
+
         Vector3 startScreen = new Vector3(
             start.x * Screen.width,
             (1f - start.y) * Screen.height,
-            0.5f);
+            renderDepth);
 
         Vector3 endScreen = new Vector3(
             end.x * Screen.width,
             (1f - end.y) * Screen.height,
-            0.5f);
+            renderDepth);
 
         Vector3 startWorld = mainCamera.ScreenToWorldPoint(startScreen);
         Vector3 endWorld = mainCamera.ScreenToWorldPoint(endScreen);
@@ -144,15 +157,18 @@ public class LandmarkFollower : MonoBehaviour
         Vector3 handStartScreen = new Vector3(
             handStart.x * Screen.width,
             (1f - handStart.y) * Screen.height,
-            0.5f);
+            renderDepth);
 
         Vector3 handEndScreen = new Vector3(
             handEnd.x * Screen.width,
             (1f - handEnd.y) * Screen.height,
-            0.5f);
+            renderDepth);
 
+        // Fix 2: Normalize hand width against Screen.dpi so the scale calculation
+        // is consistent across high-DPI mobile screens and laptop displays.
+        float dpiNormalized = Screen.dpi > 0 ? Screen.dpi / 160f : 1f;
         float currentHandWidth =
-            Vector2.Distance(handStartScreen, handEndScreen) / Screen.width;
+            Vector2.Distance(handStartScreen, handEndScreen) / (Screen.width * dpiNormalized);
 
         float scaleFactor =
             (currentHandWidth / referenceHandWidth) * scaleMultiplier;
