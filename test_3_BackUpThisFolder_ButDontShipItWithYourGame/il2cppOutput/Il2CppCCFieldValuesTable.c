@@ -1033,7 +1033,7 @@ IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1152[8];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1153[2];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1154[1];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1155[1];
-IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1156[5];
+IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1156[6];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1157[3];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1158[1];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable1159[1];

@@ -473,11 +473,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8837774153085666347, guid: 87a9be2a7620991a78342ef9a56fa62c, type: 3}
       propertyPath: _landmarkRadius
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8837774153085666347, guid: 87a9be2a7620991a78342ef9a56fa62c, type: 3}
       propertyPath: _connectionWidth
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7434967355688441420, guid: 87a9be2a7620991a78342ef9a56fa62c, type: 3}
       propertyPath: m_Name
@@ -2356,7 +2356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 239391251454531106, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -485
       objectReference: {fileID: 0}
     - target: {fileID: 239391251454531106, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2374,6 +2374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 918653435807206583, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 227034123}
     - target: {fileID: 6983235545518832078, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
       propertyPath: m_Name
       value: Image

@@ -10655,11 +10655,11 @@ struct U3CU3Ec__DisplayClass17_0_t991946CD2F599AF2F425702F3A613F050CB53743  : pu
 {
 	bool ___visualizeZ;
 };
-struct U3CU3Ec__DisplayClass12_0_t55564DD258E2046B892F1F510D3DA2C8ECCD9D0C  : public RuntimeObject
+struct U3CU3Ec__DisplayClass14_0_tE01A20C352DE3F4331CD5A6BB255BCD2A7B69E67  : public RuntimeObject
 {
 	bool ___visualizeZ;
 };
-struct U3CU3Ec__DisplayClass13_0_tB146ED5C7121DB38EDAFF6C7D0437E23FA5DE63F  : public RuntimeObject
+struct U3CU3Ec__DisplayClass15_0_tFE9F763A1C37776165D7B720191AA2EE19015479  : public RuntimeObject
 {
 	bool ___visualizeZ;
 };
@@ -41977,6 +41977,7 @@ struct MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49
 	float ____landmarkRadius;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____connectionColor;
 	float ____connectionWidth;
+	bool ____isLandMarkVisible;
 };
 struct MultiPoseLandmarkListAnnotation_t3DF0AC3E535742DC750099567861E4F72AEC2427  : public ListAnnotation_1_t6245FE9EF5F0E89A1673A700D7183C1010242796
 {
@@ -54809,9 +54810,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize1152 = { sizeof(MultiFaceLan
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize1153;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize1153 = { sizeof(MultiFaceLandmarkListAnnotationController_t8BBBAAF03BB707D0370540EEABBD02C535EECEA3), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize1154;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize1154 = { sizeof(U3CU3Ec__DisplayClass12_0_t55564DD258E2046B892F1F510D3DA2C8ECCD9D0C), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize1154 = { sizeof(U3CU3Ec__DisplayClass14_0_tE01A20C352DE3F4331CD5A6BB255BCD2A7B69E67), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize1155;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize1155 = { sizeof(U3CU3Ec__DisplayClass13_0_tB146ED5C7121DB38EDAFF6C7D0437E23FA5DE63F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize1155 = { sizeof(U3CU3Ec__DisplayClass15_0_tFE9F763A1C37776165D7B720191AA2EE19015479), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize1156;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize1156 = { sizeof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize1157;

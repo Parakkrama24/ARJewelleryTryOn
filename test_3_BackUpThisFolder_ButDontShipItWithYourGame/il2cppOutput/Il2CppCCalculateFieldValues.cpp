@@ -6163,11 +6163,11 @@ struct U3CU3Ec__DisplayClass17_0_t991946CD2F599AF2F425702F3A613F050CB53743  : pu
 {
 	bool ___visualizeZ;
 };
-struct U3CU3Ec__DisplayClass12_0_t55564DD258E2046B892F1F510D3DA2C8ECCD9D0C  : public RuntimeObject
+struct U3CU3Ec__DisplayClass14_0_tE01A20C352DE3F4331CD5A6BB255BCD2A7B69E67  : public RuntimeObject
 {
 	bool ___visualizeZ;
 };
-struct U3CU3Ec__DisplayClass13_0_tB146ED5C7121DB38EDAFF6C7D0437E23FA5DE63F  : public RuntimeObject
+struct U3CU3Ec__DisplayClass15_0_tFE9F763A1C37776165D7B720191AA2EE19015479  : public RuntimeObject
 {
 	bool ___visualizeZ;
 };
@@ -17369,6 +17369,7 @@ struct MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49
 	float ____landmarkRadius;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____connectionColor;
 	float ____connectionWidth;
+	bool ____isLandMarkVisible;
 };
 struct MultiPoseLandmarkListAnnotation_t3DF0AC3E535742DC750099567861E4F72AEC2427  : public ListAnnotation_1_t6245FE9EF5F0E89A1673A700D7183C1010242796
 {
@@ -27090,13 +27091,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1153[2] =
 	static_cast<int32_t>(offsetof(MultiFaceLandmarkListAnnotationController_t8BBBAAF03BB707D0370540EEABBD02C535EECEA3, ____visualizeZ)),static_cast<int32_t>(offsetof(MultiFaceLandmarkListAnnotationController_t8BBBAAF03BB707D0370540EEABBD02C535EECEA3, ____currentTarget)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1154[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass12_0_t55564DD258E2046B892F1F510D3DA2C8ECCD9D0C, ___visualizeZ)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass14_0_tE01A20C352DE3F4331CD5A6BB255BCD2A7B69E67, ___visualizeZ)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1155[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass13_0_tB146ED5C7121DB38EDAFF6C7D0437E23FA5DE63F, ___visualizeZ)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1156[5] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass15_0_tFE9F763A1C37776165D7B720191AA2EE19015479, ___visualizeZ)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1156[6] = 
 {
-	static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____leftLandmarkColor)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____rightLandmarkColor)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____landmarkRadius)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____connectionColor)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____connectionWidth)),};
+	static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____leftLandmarkColor)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____rightLandmarkColor)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____landmarkRadius)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____connectionColor)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____connectionWidth)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotation_t61DA3B99D221B399B8EECC164BA52A9D1643AA49, ____isLandMarkVisible)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1157[3] = 
 {
 	static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotationController_t890A56ED44F049DA6AF894D9711BBCD5E1369990, ____visualizeZ)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotationController_t890A56ED44F049DA6AF894D9711BBCD5E1369990, ____currentHandLandmarkLists)),static_cast<int32_t>(offsetof(MultiHandLandmarkListAnnotationController_t890A56ED44F049DA6AF894D9711BBCD5E1369990, ____currentHandedness)),};
