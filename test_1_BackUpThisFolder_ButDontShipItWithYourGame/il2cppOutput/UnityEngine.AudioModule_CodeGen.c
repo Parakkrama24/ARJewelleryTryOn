@@ -38,6 +38,26 @@ extern void AudioSource__ctor_mC67BD65374AC3CDFB702307F4A89932D803191C1 (void);
 extern void AudioSource_PlayOneShotHelper_Injected_mB8AC15832591B5B0DEE7E67B7E060618A23480F5 (void);
 extern void AudioSource_set_loop_Injected_mEF9474AF2A1FC89B8DE5B578B167E1FE3C0E00CC (void);
 extern void AudioSource_set_playOnAwake_Injected_m009A05A89DC8B7EDB36EA1F0CA4E49076993F9C9 (void);
+extern void WebCamDevice_get_name_m2BF75E8EA486668299906EAC9B35214890D4601E (void);
+extern void WebCamDevice_get_isFrontFacing_mA021D9DBDDB227FEA8AA635E833EAB7718672404 (void);
+extern void WebCamDevice_get_availableResolutions_mFF88DEDAE444B4FA6ABE86888C451F7B68ED84F1 (void);
+extern void WebCamTexture_get_devices_m57A8D669542CBDDB56B21C8DB62D703B7215EBFA (void);
+extern void WebCamTexture__ctor_mAF6018FD8752F8527E23C6A800A314C87322D1DD (void);
+extern void WebCamTexture__ctor_mCDCF373E41263EE323147C4A50609EBE9FA28269 (void);
+extern void WebCamTexture_Play_mAB313C6F98D5433C414DA31DD96316BDE8D19A26 (void);
+extern void WebCamTexture_Pause_mF77809A7C7EFF3B0DCEBDC09A3E1B0758F050367 (void);
+extern void WebCamTexture_Stop_m6239B5D1E10C53B57BB30E124E3F541EBD46A184 (void);
+extern void WebCamTexture_get_isPlaying_mE53901F249CD5FFF9D1C31DDCC2FC331DCEA80CF (void);
+extern void WebCamTexture_get_videoRotationAngle_m2BF420A1243F56415BEF82CC84AB4C7B342C991F (void);
+extern void WebCamTexture_get_videoVerticallyMirrored_mDC7525B796A2629927EF113DA199DDE200B1B52A (void);
+extern void WebCamTexture_Internal_CreateWebCamTexture_mE8B5E78C03DAD51A213D6D39D5A154919409BDD9 (void);
+extern void WebCamTexture_Play_Injected_m3352EB6991BA2F019AE3764AFB7DE8B919D3AB58 (void);
+extern void WebCamTexture_Pause_Injected_m51C1F67A0382F0D7373778276F9E32F713E1C4D2 (void);
+extern void WebCamTexture_Stop_Injected_m25CCBCD6118A9AAFDD44BF997978E1BE6E3F3A73 (void);
+extern void WebCamTexture_get_isPlaying_Injected_m3B7379991B103A20E478CAD56CC78DD6BD065AF7 (void);
+extern void WebCamTexture_get_videoRotationAngle_Injected_mDF031F6E785546FBA8F8A6681E60F4E5B4376AA7 (void);
+extern void WebCamTexture_get_videoVerticallyMirrored_Injected_m3A4F3577F2475404628DB72B19EAA8CA095BB85C (void);
+extern void WebCamTexture_Internal_CreateWebCamTexture_Injected_m7393102C5FC1B8C3BE8AF719DCB1EC88B261A636 (void);
 extern void AudioSampleProvider_InvokeSampleFramesAvailable_mEB16F7230AB65A3576BF053AC5719F8E134FBCD4 (void);
 extern void AudioSampleProvider_InvokeSampleFramesOverflow_m66593173A527981F5EB2A5EF77B0C9119DAB5E15 (void);
 extern void SampleFramesHandler__ctor_m7DDE0BAD439CD80791140C7D42D661B598A7663A (void);
@@ -47,7 +67,7 @@ extern void AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C4
 extern void AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83 (void);
 extern void AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD (void);
 extern void AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57 (void);
-static Il2CppMethodPointer s_methodPointers[40] = 
+static Il2CppMethodPointer s_methodPointers[60] = 
 {
 	AudioSettings_InvokeOnAudioConfigurationChanged_m8273D3AEB24F4C3E374238B6F699BE6696808E85,
 	AudioSettings_InvokeOnAudioSystemShuttingDown_m1B9895D60B3267EBDEC69B9169730DBAD8325E90,
@@ -80,6 +100,26 @@ static Il2CppMethodPointer s_methodPointers[40] =
 	AudioSource_PlayOneShotHelper_Injected_mB8AC15832591B5B0DEE7E67B7E060618A23480F5,
 	AudioSource_set_loop_Injected_mEF9474AF2A1FC89B8DE5B578B167E1FE3C0E00CC,
 	AudioSource_set_playOnAwake_Injected_m009A05A89DC8B7EDB36EA1F0CA4E49076993F9C9,
+	WebCamDevice_get_name_m2BF75E8EA486668299906EAC9B35214890D4601E,
+	WebCamDevice_get_isFrontFacing_mA021D9DBDDB227FEA8AA635E833EAB7718672404,
+	WebCamDevice_get_availableResolutions_mFF88DEDAE444B4FA6ABE86888C451F7B68ED84F1,
+	WebCamTexture_get_devices_m57A8D669542CBDDB56B21C8DB62D703B7215EBFA,
+	WebCamTexture__ctor_mAF6018FD8752F8527E23C6A800A314C87322D1DD,
+	WebCamTexture__ctor_mCDCF373E41263EE323147C4A50609EBE9FA28269,
+	WebCamTexture_Play_mAB313C6F98D5433C414DA31DD96316BDE8D19A26,
+	WebCamTexture_Pause_mF77809A7C7EFF3B0DCEBDC09A3E1B0758F050367,
+	WebCamTexture_Stop_m6239B5D1E10C53B57BB30E124E3F541EBD46A184,
+	WebCamTexture_get_isPlaying_mE53901F249CD5FFF9D1C31DDCC2FC331DCEA80CF,
+	WebCamTexture_get_videoRotationAngle_m2BF420A1243F56415BEF82CC84AB4C7B342C991F,
+	WebCamTexture_get_videoVerticallyMirrored_mDC7525B796A2629927EF113DA199DDE200B1B52A,
+	WebCamTexture_Internal_CreateWebCamTexture_mE8B5E78C03DAD51A213D6D39D5A154919409BDD9,
+	WebCamTexture_Play_Injected_m3352EB6991BA2F019AE3764AFB7DE8B919D3AB58,
+	WebCamTexture_Pause_Injected_m51C1F67A0382F0D7373778276F9E32F713E1C4D2,
+	WebCamTexture_Stop_Injected_m25CCBCD6118A9AAFDD44BF997978E1BE6E3F3A73,
+	WebCamTexture_get_isPlaying_Injected_m3B7379991B103A20E478CAD56CC78DD6BD065AF7,
+	WebCamTexture_get_videoRotationAngle_Injected_mDF031F6E785546FBA8F8A6681E60F4E5B4376AA7,
+	WebCamTexture_get_videoVerticallyMirrored_Injected_m3A4F3577F2475404628DB72B19EAA8CA095BB85C,
+	WebCamTexture_Internal_CreateWebCamTexture_Injected_m7393102C5FC1B8C3BE8AF719DCB1EC88B261A636,
 	AudioSampleProvider_InvokeSampleFramesAvailable_mEB16F7230AB65A3576BF053AC5719F8E134FBCD4,
 	AudioSampleProvider_InvokeSampleFramesOverflow_m66593173A527981F5EB2A5EF77B0C9119DAB5E15,
 	SampleFramesHandler__ctor_m7DDE0BAD439CD80791140C7D42D661B598A7663A,
@@ -90,67 +130,93 @@ static Il2CppMethodPointer s_methodPointers[40] =
 	AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD,
 	AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57,
 };
+extern void WebCamDevice_get_name_m2BF75E8EA486668299906EAC9B35214890D4601E_AdjustorThunk (void);
+extern void WebCamDevice_get_isFrontFacing_mA021D9DBDDB227FEA8AA635E833EAB7718672404_AdjustorThunk (void);
+extern void WebCamDevice_get_availableResolutions_mFF88DEDAE444B4FA6ABE86888C451F7B68ED84F1_AdjustorThunk (void);
 extern void AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk (void);
 extern void AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk (void);
 extern void AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk (void);
 extern void AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[7] = 
 {
-	{ 0x06000025, AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk },
-	{ 0x06000026, AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk },
-	{ 0x06000027, AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk },
-	{ 0x06000028, AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk },
+	{ 0x06000020, WebCamDevice_get_name_m2BF75E8EA486668299906EAC9B35214890D4601E_AdjustorThunk },
+	{ 0x06000021, WebCamDevice_get_isFrontFacing_mA021D9DBDDB227FEA8AA635E833EAB7718672404_AdjustorThunk },
+	{ 0x06000022, WebCamDevice_get_availableResolutions_mFF88DEDAE444B4FA6ABE86888C451F7B68ED84F1_AdjustorThunk },
+	{ 0x06000039, AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk },
+	{ 0x0600003A, AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk },
+	{ 0x0600003B, AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk },
+	{ 0x0600003C, AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[40] = 
+static const int32_t s_InvokerIndices[60] = 
 {
-	26990,
-	28297,
-	28297,
-	28152,
-	28152,
-	6512,
-	12510,
-	28152,
-	26990,
-	28152,
-	26990,
-	28152,
-	28297,
-	28297,
-	16646,
-	12715,
-	12647,
-	6512,
-	12715,
-	6512,
-	12647,
-	16646,
-	21643,
-	12715,
-	6538,
-	12510,
-	12510,
-	16646,
-	21434,
-	23832,
-	23832,
-	12647,
-	12647,
-	6512,
-	6572,
-	16646,
-	16450,
-	8841,
-	16450,
-	8842,
+	28057,
+	29390,
+	29390,
+	29244,
+	29244,
+	6872,
+	13126,
+	29244,
+	28057,
+	29244,
+	28057,
+	29244,
+	29390,
+	29390,
+	17386,
+	13359,
+	13274,
+	6872,
+	13359,
+	6872,
+	13274,
+	17386,
+	22551,
+	13359,
+	6901,
+	13126,
+	13126,
+	17386,
+	22342,
+	24802,
+	24802,
+	17165,
+	16933,
+	17165,
+	29297,
+	2246,
+	17386,
+	17386,
+	17386,
+	17386,
+	16933,
+	17080,
+	16933,
+	19645,
+	28070,
+	28070,
+	28070,
+	27158,
+	27368,
+	27158,
+	19463,
+	13274,
+	13274,
+	6872,
+	6935,
+	17386,
+	17186,
+	9284,
+	17186,
+	9285,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule = 
 {
 	"UnityEngine.AudioModule.dll",
-	40,
+	60,
 	s_methodPointers,
-	4,
+	7,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
