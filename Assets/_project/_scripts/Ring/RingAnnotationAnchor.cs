@@ -28,9 +28,28 @@ public class RingAnnotationAnchor : MonoBehaviour
     [Tooltip("Drag the 'Multi HandLandmarkList Annotation' GameObject here.")]
     [SerializeField] private MultiHandLandmarkListAnnotation _multiHandAnnotation;
 
-    [Header("Landmark Settings")]
-    [Tooltip("Landmark to place ring at. 13=Ring MCP (base), 14=Ring PIP.")]
-    [SerializeField] private int _landmarkIndex = 13;
+    [Header("Finger Landmarks")]
+    [Tooltip("List of landmark indices the toggle button cycles through.\n" +
+             "Default: 14=Ring PIP, 10=Middle PIP, 3=Thumb IP\n" +
+             "Add or remove entries freely in the Inspector.")]
+    [SerializeField] private int[] _fingerLandmarks = { 14, 10, 3 };
+
+    [Tooltip("Optional display names shown in UI (must match _fingerLandmarks length).")]
+    [SerializeField] private string[] _fingerNames = { "Ring", "Middle", "Thumb" };
+
+    // Which finger is currently active (index into _fingerLandmarks)
+    private int _currentFingerIndex = 0;
+
+    // Active landmark read from _fingerLandmarks[_currentFingerIndex]
+    private int _landmarkIndex => _fingerLandmarks != null && _fingerLandmarks.Length > 0
+        ? _fingerLandmarks[_currentFingerIndex]
+        : 14;
+
+    /// <summary>Display name of the currently active finger.</summary>
+    public string CurrentFingerName =>
+        (_fingerNames != null && _currentFingerIndex < _fingerNames.Length)
+            ? _fingerNames[_currentFingerIndex]
+            : _landmarkIndex.ToString();
 
     [Header("Ring Offset (World Space)")]
     [Tooltip("World-space offset added to the annotation point position.")]
@@ -174,13 +193,54 @@ public class RingAnnotationAnchor : MonoBehaviour
     }
 
     /// <summary>
-    /// Change the finger at runtime (called from UI buttons).
-    /// Direction is always anchorIndex+1 automatically.
-    /// Examples: 13=ring base, 14=ring PIP, 10=middle base, 3=thumb.
+    /// Cycles to the next finger in the _fingerLandmarks list.
+    /// Call this from your toggle UI button's OnClick event.
+    /// </summary>
+    public void ToggleFinger()
+    {
+        if (_fingerLandmarks == null || _fingerLandmarks.Length == 0)
+            return;
+
+        _currentFingerIndex = (_currentFingerIndex + 1) % _fingerLandmarks.Length;
+        _rotationInitialized = false;   // snap rotation immediately on switch
+
+        Debug.Log($"[RingAnnotationAnchor] Switched to {CurrentFingerName} (landmark {_landmarkIndex})");
+    }
+
+    /// <summary>
+    /// Jump directly to a specific finger by its index in _fingerLandmarks.
+    /// </summary>
+    public void SetFingerIndex(int index)
+    {
+        if (_fingerLandmarks == null || index < 0 || index >= _fingerLandmarks.Length)
+            return;
+
+        _currentFingerIndex  = index;
+        _rotationInitialized = false;
+    }
+
+    /// <summary>
+    /// Legacy helper — set by raw landmark number directly.
     /// </summary>
     public void SetLandmarkIndex(int anchorIndex)
     {
-        _landmarkIndex       = anchorIndex;
-        _rotationInitialized = false;  // snap rotation immediately on finger switch
+        // Find matching entry in the array, or just override index 0
+        if (_fingerLandmarks != null)
+        {
+            for (int i = 0; i < _fingerLandmarks.Length; i++)
+            {
+                if (_fingerLandmarks[i] == anchorIndex)
+                {
+                    _currentFingerIndex  = i;
+                    _rotationInitialized = false;
+                    return;
+                }
+            }
+        }
+        // Not found — set first slot directly
+        if (_fingerLandmarks != null && _fingerLandmarks.Length > 0)
+            _fingerLandmarks[0] = anchorIndex;
+        _currentFingerIndex  = 0;
+        _rotationInitialized = false;
     }
 }

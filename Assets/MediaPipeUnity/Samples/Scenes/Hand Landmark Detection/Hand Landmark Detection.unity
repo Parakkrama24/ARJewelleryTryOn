@@ -1555,7 +1555,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RingAnnotationAnchor
   _multiHandAnnotation: {fileID: 227034123}
-  _landmarkIndex: 14
+  _fingerLandmarks: 0e0000000a00000003000000
+  _fingerNames:
+  - Ring
+  - Middle
+  - Thumb
   _positionOffset: {x: 0, y: 0, z: 0}
   _ringScale: {x: 110, y: 110, z: 110}
   _trackRotation: 1
@@ -1981,33 +1985,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1944570898}
-        m_TargetAssemblyTypeName: LandmarkFollower, Assembly-CSharp
-        m_MethodName: setFinger
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1769175404}
-        m_TargetAssemblyTypeName: LandmarkFollower, Assembly-CSharp
-        m_MethodName: setFinger
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1316173327}
-        m_TargetAssemblyTypeName: LandmarkFollower, Assembly-CSharp
-        m_MethodName: setFinger
+      - m_Target: {fileID: 1769175405}
+        m_TargetAssemblyTypeName: RingAnnotationAnchor, Assembly-CSharp
+        m_MethodName: ToggleFinger
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
