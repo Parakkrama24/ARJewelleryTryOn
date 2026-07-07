@@ -14657,7 +14657,7 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117665
+// Method Definition Index: 117670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t LegacySolutionRunner_1_get_timeoutMillisec_mDA933D16B5CD22FCD8579422BE733EDF9BB83604_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14669,7 +14669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t LegacySolutionRunner_1_get_timeoutMil
 		return L_1;
 	}
 }
-// Method Definition Index: 117666
+// Method Definition Index: 117671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_set_timeoutMillisec_mAAEF83EAB33F98EFD5A698A481589185C7039695_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14681,7 +14681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_set_timeoutMillis
 		return;
 	}
 }
-// Method Definition Index: 117667
+// Method Definition Index: 117672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Play_mA6D07976EA11D7214EBF5C8696D9AAA40C2FF0B8_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14715,7 +14715,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 117668
+// Method Definition Index: 117673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Pause_mC11A1164E8AA247B6293C4FD5BAF5EE5289BA77D_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14731,7 +14731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Pause_mC11A1164E8
 		return;
 	}
 }
-// Method Definition Index: 117669
+// Method Definition Index: 117674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Resume_mC0A159D3D9557F14347539F3197B1EBEE143335D_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14751,7 +14751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Resume_mC0A159D3D
 		return;
 	}
 }
-// Method Definition Index: 117670
+// Method Definition Index: 117675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Stop_mABE3D0144186A9A3AE3F153E9735ABCDF1539313_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14775,7 +14775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1_Stop_mABE3D014418
 		return;
 	}
 }
-// Method Definition Index: 117673
+// Method Definition Index: 117678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacySolutionRunner_1__ctor_mA7B85D83D051DC0E95FE5CB5FE5231ACC86A20E2_gshared (LegacySolutionRunner_1_tB9541F9EE9D9D0B63BA917238E34F99A3959B998* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27092,7 +27092,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LazyHelper_get_State_m8EE
 		return L_0;
 	}
 }
-// Method Definition Index: 117660
+// Method Definition Index: 117665
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ImageSource_t7FD9F4B757BDC1604743C6D7B278401464C479BA* ImageSourceProvider_get_ImageSource_m15D529C6AC21C8509B8151AA91621F69B7C98DD2_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

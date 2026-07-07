@@ -2,173 +2,185 @@ using UnityEngine;
 using Mediapipe.Unity;
 
 /// <summary>
-/// NEW APPROACH — Annotation Anchor Method
-/// 
-/// Instead of reading raw landmark (x,y,z) and converting through screen space
-/// (which caused jitter on mobile), this script directly parents the ring to
-/// the PointAnnotation GameObject that MediaPipe ALREADY positions correctly
-/// every frame on the annotation canvas.
+/// NEW APPROACH — Annotation Position Tracking
 ///
-/// Flow:
-///   MediaPipe detects hand
-///   → MultiHandLandmarkListAnnotation positions PointAnnotation[13] on screen
-///   → We parent the ring to that PointAnnotation's transform
-///   → Ring moves EXACTLY with the annotation dot — zero extra math needed
+/// Tracks the world position of a MediaPipe PointAnnotation each frame
+/// and moves the ring there directly — WITHOUT parenting to the annotation.
+///
+/// WHY NOT SetParent:
+///   When landmarks are hidden (_isLandMarkVisible = false), MediaPipe calls
+///   SetLandmarkRadius(0) which sets the PointAnnotation's localScale to zero.
+///   A parented ring would also inherit scale=0 and disappear.
+///   By copying worldPosition instead, ring visibility is fully independent.
+///
+/// Ring visible   = hand is detected (annotation is active)
+/// Dots visible   = controlled separately by MultiHandLandmarkListAnnotation
+/// These two are COMPLETELY independent.
 ///
 /// Usage:
-///   Attach this script to your Ring GameObject.
-///   Assign the MultiHandLandmarkListAnnotation reference in the Inspector.
-///   Set landmarkIndex (default 13 = ring finger base).
+///   1. Attach this to your Ring GameObject.
+///   2. Assign _multiHandAnnotation in the Inspector.
+///   3. Set landmarkIndex (13 = ring finger base, 14 = ring finger PIP).
 /// </summary>
 public class RingAnnotationAnchor : MonoBehaviour
 {
     [Header("Annotation Reference")]
-    [Tooltip("Drag the 'Multi Hand Landmark List Annotation' GameObject here.")]
+    [Tooltip("Drag the 'Multi HandLandmarkList Annotation' GameObject here.")]
     [SerializeField] private MultiHandLandmarkListAnnotation _multiHandAnnotation;
 
     [Header("Landmark Settings")]
-    [Tooltip("Which landmark to anchor the ring to. 13 = Ring MCP, 14 = Ring PIP.")]
+    [Tooltip("Landmark to place ring at. 13=Ring MCP (base), 14=Ring PIP.")]
     [SerializeField] private int _landmarkIndex = 13;
 
-    [Header("Ring Offset")]
-    [Tooltip("Local position offset from the landmark point (fine-tune ring placement).")]
+    [Header("Ring Offset (World Space)")]
+    [Tooltip("World-space offset added to the annotation point position.")]
     [SerializeField] private Vector3 _positionOffset = Vector3.zero;
 
-    [Tooltip("Local rotation offset for the ring.")]
-    [SerializeField] private Vector3 _rotationOffset = Vector3.zero;
-
-    [Tooltip("Scale of the ring relative to its anchor parent.")]
-    [SerializeField] private Vector3 _localScale    = Vector3.one;
+    [Header("Ring Scale")]
+    [Tooltip("World-space scale of the ring (independent of annotation scale).")]
+    [SerializeField] private Vector3 _ringScale = Vector3.one;
 
     [Header("Rotation Tracking")]
-    [Tooltip("If true, ring will also rotate to follow the finger direction (landmark 13→14).")]
+    [Tooltip("Rotate ring to align with the finger direction.")]
     [SerializeField] private bool _trackRotation = true;
 
-    [Tooltip("Second landmark used to compute finger direction for rotation (ignored if Track Rotation is off).")]
-    [SerializeField] private int _directionLandmarkIndex = 14;
+    // Direction landmark is always _landmarkIndex + 1 automatically.
+    // e.g. anchor=13 → direction=14, anchor=14 → direction=15.
+    // No need to set this manually.
 
-    [Tooltip("Smooth speed for rotation tracking. Higher = faster.")]
-    [SerializeField] private float _rotationSmoothSpeed = 12f;
+    [Tooltip("Rotation offset applied on top of the finger direction.")]
+    [SerializeField] private Vector3 _rotationOffset = Vector3.zero;
+
+    [Tooltip("Smooth speed for rotation. Higher = snappier.")]
+    [SerializeField] private float _rotationSmoothSpeed = 10f;
 
     // ---------------------------------------------------------------
-    // Private state
+    // Cached renderers — used to show/hide ring WITHOUT touching scale
     // ---------------------------------------------------------------
-    private Transform _anchorTransform;   // The PointAnnotation we're parented to
-    private bool      _isAnchored = false;
+    private Renderer[] _renderers;
+    private bool       _ringVisible = false;
+    private Quaternion _smoothedRotation;  // persisted across frames for smooth slerp
+    private bool       _rotationInitialized = false;
+
+    private void Awake()
+    {
+        // Cache all renderers on this object and its children
+        _renderers = GetComponentsInChildren<Renderer>(includeInactive: true);
+
+        // Apply the fixed world scale once — never changes after this
+        transform.localScale = _ringScale;
+
+        // Make sure ring starts hidden
+        SetRingVisible(false);
+    }
 
     private void Update()
     {
         if (_multiHandAnnotation == null)
             return;
 
-        bool handVisible = _multiHandAnnotation.gameObject.activeSelf
-                           && _multiHandAnnotation.count > 0;
+        // Hand is present when the annotation container is active AND has children
+        bool handDetected = _multiHandAnnotation.gameObject.activeInHierarchy
+                            && _multiHandAnnotation.count > 0;
 
-        if (handVisible)
+        if (!handDetected)
         {
-            TryAnchor();
-
-            if (_isAnchored && _trackRotation)
-                UpdateRotation();
+            SetRingVisible(false);
+            return;
         }
-        else
-        {
-            Detach();
-        }
-    }
 
-    /// <summary>
-    /// Parents the ring to the correct PointAnnotation if not already done.
-    /// </summary>
-    private void TryAnchor()
-    {
-        // Get the first detected hand's annotation (index 0)
         var handAnnotation = _multiHandAnnotation[0];
         if (handAnnotation == null)
+        {
+            SetRingVisible(false);
             return;
+        }
 
-        // PointAnnotation for our chosen landmark
         var pointAnnotation = handAnnotation[_landmarkIndex];
         if (pointAnnotation == null)
+        {
+            SetRingVisible(false);
+            return;
+        }
+
+        // ---------------------------------------------------------------
+        // POSITION — copy world position from annotation, add offset
+        // ---------------------------------------------------------------
+        transform.position = pointAnnotation.transform.position + _positionOffset;
+
+        // ---------------------------------------------------------------
+        // ROTATION — align ring with finger direction
+        // Direction is always anchorIndex + 1 (e.g. 13→14, 14→15, 3→4)
+        // ---------------------------------------------------------------
+        if (_trackRotation)
+        {
+            int dirIndex = _landmarkIndex + 1;
+
+            // Guard: don't go out of the 21-landmark range
+            if (dirIndex < 21)
+            {
+                var dirAnnotation = handAnnotation[dirIndex];
+                if (dirAnnotation != null)
+                {
+                    Vector3 direction = dirAnnotation.transform.position
+                                        - pointAnnotation.transform.position;
+
+                    if (direction.sqrMagnitude > 0.00001f)
+                    {
+                        Quaternion targetRot = Quaternion.LookRotation(direction)
+                                              * Quaternion.Euler(_rotationOffset);
+
+                        // On first valid frame, snap immediately so the ring
+                        // doesn't spin in from a wrong orientation.
+                        if (!_rotationInitialized)
+                        {
+                            _smoothedRotation    = targetRot;
+                            _rotationInitialized = true;
+                        }
+                        else
+                        {
+                            // Smooth the rotation independently of frame rate
+                            float t = 1f - Mathf.Pow(1f - Mathf.Clamp01(_rotationSmoothSpeed * Time.deltaTime), 1f);
+                            _smoothedRotation = Quaternion.Slerp(_smoothedRotation, targetRot, t);
+                        }
+
+                        transform.rotation = _smoothedRotation;
+                    }
+                }
+            }
+        }
+
+        // ---------------------------------------------------------------
+        // VISIBILITY — show ring as soon as hand is detected
+        // ---------------------------------------------------------------
+        SetRingVisible(true);
+    }
+
+    /// <summary>
+    /// Shows or hides all renderers on the ring — does NOT change scale,
+    /// so annotation dot visibility has zero effect on the ring.
+    /// </summary>
+    private void SetRingVisible(bool visible)
+    {
+        if (_ringVisible == visible)
             return;
 
-        Transform pointTransform = pointAnnotation.transform;
-
-        // Only re-parent if the anchor has changed (avoids SetParent every frame)
-        if (_anchorTransform != pointTransform)
+        _ringVisible = visible;
+        foreach (var r in _renderers)
         {
-            transform.SetParent(pointTransform, worldPositionStays: false);
-            _anchorTransform = pointTransform;
-            _isAnchored      = true;
-
-            // Apply local offset and scale relative to the anchor
-            transform.localPosition = _positionOffset;
-            transform.localScale    = _localScale;
-            transform.localRotation = Quaternion.Euler(_rotationOffset);
-
-            Debug.Log($"[RingAnnotationAnchor] Anchored ring to landmark {_landmarkIndex}");
+            if (r != null)
+                r.enabled = visible;
         }
     }
 
     /// <summary>
-    /// Smoothly rotates the ring to align with the finger direction
-    /// using two annotation points (e.g. landmark 13 → 14).
+    /// Change the finger at runtime (called from UI buttons).
+    /// Direction is always anchorIndex+1 automatically.
+    /// Examples: 13=ring base, 14=ring PIP, 10=middle base, 3=thumb.
     /// </summary>
-    private void UpdateRotation()
+    public void SetLandmarkIndex(int anchorIndex)
     {
-        if (_multiHandAnnotation.count == 0)
-            return;
-
-        var handAnnotation = _multiHandAnnotation[0];
-        if (handAnnotation == null)
-            return;
-
-        var startAnnotation = handAnnotation[_landmarkIndex];
-        var endAnnotation   = handAnnotation[_directionLandmarkIndex];
-
-        if (startAnnotation == null || endAnnotation == null)
-            return;
-
-        Vector3 direction = endAnnotation.transform.position - startAnnotation.transform.position;
-
-        if (direction.sqrMagnitude < 0.00001f)
-            return;
-
-        Quaternion targetRotation = Quaternion.LookRotation(direction)
-                                    * Quaternion.Euler(_rotationOffset);
-
-        transform.rotation = Quaternion.Slerp(
-            transform.rotation,
-            targetRotation,
-            Time.deltaTime * _rotationSmoothSpeed);
-    }
-
-    /// <summary>
-    /// Detaches the ring from the annotation and hides it when no hand is detected.
-    /// </summary>
-    private void Detach()
-    {
-        if (!_isAnchored)
-            return;
-
-        transform.SetParent(null, worldPositionStays: true);
-        _anchorTransform = null;
-        _isAnchored      = false;
-
-        Debug.Log("[RingAnnotationAnchor] Detached — no hand detected.");
-    }
-
-    /// <summary>
-    /// Change the landmark index at runtime (e.g. when user switches fingers).
-    /// </summary>
-    public void SetLandmarkIndex(int index, int directionIndex = -1)
-    {
-        _landmarkIndex = index;
-        if (directionIndex >= 0)
-            _directionLandmarkIndex = directionIndex;
-
-        // Force re-anchor on next Update
-        _anchorTransform = null;
-        _isAnchored      = false;
+        _landmarkIndex       = anchorIndex;
+        _rotationInitialized = false;  // snap rotation immediately on finger switch
     }
 }

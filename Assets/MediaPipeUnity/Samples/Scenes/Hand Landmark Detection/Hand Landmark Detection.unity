@@ -1510,6 +1510,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1769175404}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1769175405}
   m_SourcePrefab: {fileID: 100100000, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
 --- !u!1 &1769175403 stripped
 GameObject:
@@ -1523,7 +1526,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769175403}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72249824ad0abfe439b7aa65a52a49f7, type: 3}
   m_Name: 
@@ -1539,6 +1542,25 @@ MonoBehaviour:
   scaleMultiplier: 1.5
   scaleSmoothSpeed: 10
   toggleHand: 1
+--- !u!114 &1769175405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769175403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98afa610f7a627f409336f6243117c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RingAnnotationAnchor
+  _multiHandAnnotation: {fileID: 227034123}
+  _landmarkIndex: 14
+  _positionOffset: {x: 0, y: 0, z: 0}
+  _ringScale: {x: 110, y: 110, z: 110}
+  _trackRotation: 1
+  _rotationOffset: {x: 0, y: 0, z: 90}
+  _rotationSmoothSpeed: 12
 --- !u!1 &1806680259
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,6 +2395,10 @@ PrefabInstance:
     - target: {fileID: 239391251454531106, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918653435807206583, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
+      propertyPath: m_IsOn
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 918653435807206583, guid: ea5f3f26accea6146a571ce536a3fc8b, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target

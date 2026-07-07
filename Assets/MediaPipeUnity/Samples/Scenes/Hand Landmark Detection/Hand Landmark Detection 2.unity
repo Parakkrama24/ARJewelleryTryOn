@@ -1004,6 +1004,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 462ed263fbee2974287cdb2cc2d71a98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1316173327}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 462ed263fbee2974287cdb2cc2d71a98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1316173328}
   m_SourcePrefab: {fileID: 100100000, guid: 462ed263fbee2974287cdb2cc2d71a98, type: 3}
 --- !u!1001 &1006057040
 PrefabInstance:
@@ -1321,7 +1324,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316173326}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72249824ad0abfe439b7aa65a52a49f7, type: 3}
   m_Name: 
@@ -1337,6 +1340,25 @@ MonoBehaviour:
   scaleMultiplier: 1.5
   scaleSmoothSpeed: 10
   toggleHand: 1
+--- !u!114 &1316173328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316173326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98afa610f7a627f409336f6243117c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RingAnnotationAnchor
+  _multiHandAnnotation: {fileID: 0}
+  _landmarkIndex: 14
+  _positionOffset: {x: 0, y: 0, z: 0}
+  _ringScale: {x: 0.5, y: 0.5, z: 0.5}
+  _trackRotation: 1
+  _rotationOffset: {x: 0, y: 90, z: 90}
+  _rotationSmoothSpeed: 12
 --- !u!1 &1374798684
 GameObject:
   m_ObjectHideFlags: 0
