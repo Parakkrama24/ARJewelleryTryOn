@@ -81,6 +81,11 @@ public class RingAnnotationAnchor : MonoBehaviour
     private Quaternion _smoothedRotation;  // persisted across frames for smooth slerp
     private bool       _rotationInitialized = false;
 
+    // Palm orientation debug throttle — logs every N frames to avoid console flood
+    private int _debugFrameCounter = 0;
+    private const int DebugLogInterval = 30;  // log once per 30 frames (~0.5s at 60fps)
+    private bool _lastPalmFacing = false;     // track changes for immediate log on flip
+
     private void Awake()
     {
         // Cache all renderers on this object and its children
@@ -120,6 +125,30 @@ public class RingAnnotationAnchor : MonoBehaviour
         {
             SetRingVisible(false);
             return;
+        }
+
+        // ---------------------------------------------------------------
+        // PALM ORIENTATION — Cross Product Method
+        // Reads IsPalmFacingCamera from HandTrackingManager (uses world
+        // landmarks 0, 5, 17 cross product). Logs every 30 frames OR
+        // immediately when orientation flips.
+        // ---------------------------------------------------------------
+        bool palmFacing = HandTrackingManager.Instance != null
+                          && HandTrackingManager.Instance.IsPalmFacingCamera;
+
+        string handSide = HandTrackingManager.Instance != null
+                          ? HandTrackingManager.Instance.HandSide
+                          : "Unknown";
+
+        bool orientationFlipped = palmFacing != _lastPalmFacing;
+        _lastPalmFacing = palmFacing;
+
+        _debugFrameCounter++;
+        if (orientationFlipped || _debugFrameCounter >= DebugLogInterval)
+        {
+            _debugFrameCounter = 0;
+            string orientation = palmFacing ? "PALM ▼ (facing camera)" : "BACK ▲ (back to camera)";
+            Debug.Log($"[RingAnnotationAnchor] Hand: {handSide} | Orientation: {orientation} | Finger: {CurrentFingerName} (LM {_landmarkIndex})");
         }
 
         // ---------------------------------------------------------------

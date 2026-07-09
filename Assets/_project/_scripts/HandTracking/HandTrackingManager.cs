@@ -18,6 +18,61 @@ public class HandTrackingManager : MonoBehaviour
         CurrentResult.handLandmarks != null &&
         CurrentResult.handLandmarks.Count > 0;
 
+    /// <summary>
+    /// Returns true when the PALM is facing the camera, false when BACK of hand faces camera.
+    /// Uses Method 2: cross product of three palm landmarks (Wrist=0, Index MCP=5, Pinky MCP=17)
+    /// in world coordinates. The sign of the resulting normal's z-component determines orientation.
+    /// </summary>
+    public bool IsPalmFacingCamera
+    {
+        get
+        {
+            if (!HasHand || CurrentResult.handWorldLandmarks == null ||
+                CurrentResult.handWorldLandmarks.Count == 0)
+                return false;
+
+            var wl = CurrentResult.handWorldLandmarks[0].landmarks;
+            if (wl == null || wl.Count < 18)
+                return false;
+
+            // Three palm reference landmarks (world coords in metres)
+            Vector3 wrist    = new Vector3(wl[0].x,  wl[0].y,  wl[0].z);
+            Vector3 indexMCP = new Vector3(wl[5].x,  wl[5].y,  wl[5].z);
+            Vector3 pinkyMCP = new Vector3(wl[17].x, wl[17].y, wl[17].z);
+
+            // Vectors lying in the palm plane
+            Vector3 a = indexMCP - wrist;
+            Vector3 b = pinkyMCP - wrist;
+
+            // Cross product gives palm surface normal
+            Vector3 palmNormal = Vector3.Cross(a, b);
+
+            // In MediaPipe world coords, z is positive away from the camera.
+            // Palm facing camera → normal z < 0.
+            // Back facing camera → normal z > 0.
+            return palmNormal.z < 0f;
+        }
+    }
+
+    /// <summary>
+    /// "Left", "Right", or "Unknown" from MediaPipe handedness classification.
+    /// </summary>
+    public string HandSide
+    {
+        get
+        {
+            if (!HasHand || CurrentResult.handedness == null ||
+                CurrentResult.handedness.Count == 0)
+                return "Unknown";
+
+            var cats = CurrentResult.handedness[0].categories;
+            if (cats == null || cats.Count == 0)
+                return "Unknown";
+
+            return cats[0].categoryName ?? "Unknown";
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
