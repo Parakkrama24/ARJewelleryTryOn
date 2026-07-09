@@ -22,6 +22,9 @@ using Mediapipe.Unity;
 ///   2. Assign _multiHandAnnotation in the Inspector.
 ///   3. Set landmarkIndex (13 = ring finger base, 14 = ring finger PIP).
 /// </summary>
+/// Axis choices for the back-of-hand ring flip.
+public enum FlipAxis { X, Y, Z }
+
 public class RingAnnotationAnchor : MonoBehaviour
 {
     [Header("Annotation Reference")]
@@ -72,6 +75,15 @@ public class RingAnnotationAnchor : MonoBehaviour
 
     [Tooltip("Smooth speed for rotation. Higher = snappier.")]
     [SerializeField] private float _rotationSmoothSpeed = 10f;
+
+    [Header("Back-of-Hand Flip")]
+    [Tooltip("When the BACK of the hand faces the camera, rotate the ring by _flipAngle\n" +
+             "degrees around this axis to keep it correctly oriented.\n" +
+             "Try each axis until the ring looks right when hand is flipped.")]
+    [SerializeField] private FlipAxis _flipAxis = FlipAxis.X;
+
+    [Tooltip("Degrees to rotate when back of hand faces camera. Usually 180.")]
+    [SerializeField] private float _flipAngle = 180f;
 
     // ---------------------------------------------------------------
     // Cached renderers — used to show/hide ring WITHOUT touching scale
@@ -177,6 +189,17 @@ public class RingAnnotationAnchor : MonoBehaviour
                     {
                         Quaternion targetRot = Quaternion.LookRotation(direction)
                                               * Quaternion.Euler(_rotationOffset);
+
+                        // ---- Back-of-hand flip ----
+                        // When the back faces the camera, apply an extra rotation
+                        // around the chosen axis so the ring stays correct.
+                        if (palmFacing)
+                        {
+                            Vector3 flipAxisVec = _flipAxis == FlipAxis.X ? Vector3.right
+                                               : _flipAxis == FlipAxis.Y ? Vector3.up
+                                                                         : Vector3.forward;
+                            targetRot = targetRot * Quaternion.AngleAxis(_flipAngle, flipAxisVec);
+                        }
 
                         // On first valid frame, snap immediately so the ring
                         // doesn't spin in from a wrong orientation.

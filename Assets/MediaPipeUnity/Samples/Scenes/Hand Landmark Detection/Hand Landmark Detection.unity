@@ -1565,6 +1565,8 @@ MonoBehaviour:
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 0, z: 90}
   _rotationSmoothSpeed: 12
+  _flipAxis: 2
+  _flipAngle: 380
 --- !u!1 &1806680259
 GameObject:
   m_ObjectHideFlags: 0
