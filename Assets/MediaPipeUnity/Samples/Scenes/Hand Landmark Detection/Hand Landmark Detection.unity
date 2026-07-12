@@ -1560,6 +1560,7 @@ MonoBehaviour:
   - Ring
   - Middle
   - Thumb
+  _fingerPlacement: 0.554
   _positionOffset: {x: 0, y: 0, z: 0}
   _ringScale: {x: 110, y: 110, z: 110}
   _trackRotation: 1

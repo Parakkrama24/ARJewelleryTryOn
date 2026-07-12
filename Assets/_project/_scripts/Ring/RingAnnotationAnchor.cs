@@ -54,8 +54,15 @@ public class RingAnnotationAnchor : MonoBehaviour
             ? _fingerNames[_currentFingerIndex]
             : _landmarkIndex.ToString();
 
-    [Header("Ring Offset (World Space)")]
-    [Tooltip("World-space offset added to the annotation point position.")]
+    [Header("Ring Placement")]
+    [Tooltip("Where along the finger segment the ring sits.\n" +
+             "0 = exactly at anchor landmark (e.g. landmark 14)\n" +
+             "1 = exactly at direction landmark (e.g. landmark 15)\n" +
+             "0.5 = halfway between the two landmarks")]
+    [Range(0f, 1f)]
+    [SerializeField] private float _fingerPlacement = 0.3f;
+
+    [Tooltip("Additional world-space offset added on top of the placement position.")]
     [SerializeField] private Vector3 _positionOffset = Vector3.zero;
 
     [Header("Ring Scale")]
@@ -164,9 +171,22 @@ public class RingAnnotationAnchor : MonoBehaviour
         }
 
         // ---------------------------------------------------------------
-        // POSITION — copy world position from annotation, add offset
+        // POSITION — lerp between anchor and direction landmark,
+        // controlled by the _fingerPlacement slider (0=anchor, 1=direction)
         // ---------------------------------------------------------------
-        transform.position = pointAnnotation.transform.position + _positionOffset;
+        int dirIdx = _landmarkIndex + 1;
+        Vector3 anchorPos    = pointAnnotation.transform.position;
+        Vector3 directionPos = anchorPos; // fallback: stay at anchor if out of range
+
+        PointAnnotation dirAnnotationForPos = null;
+        if (dirIdx < 21)
+            dirAnnotationForPos = handAnnotation[dirIdx];
+
+        if (dirAnnotationForPos != null)
+            directionPos = dirAnnotationForPos.transform.position;
+
+        transform.position = Vector3.Lerp(anchorPos, directionPos, _fingerPlacement)
+                             + _positionOffset;
 
         // ---------------------------------------------------------------
         // ROTATION — align ring with finger direction
