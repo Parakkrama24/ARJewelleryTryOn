@@ -52,6 +52,9 @@ extern void PoseTrackingManager_UpdateResult_mE744A74DDC3D2224BECE768A1723F58C9A
 extern void PoseTrackingManager_GetLandmark_m21F926DAA7D5C20436599F348547139E25C4613C (void);
 extern void PoseTrackingManager_GetWorldLandmark_mED01CCEAF63CBE3230F6143BFD41E4BC41FC4ABE (void);
 extern void PoseTrackingManager__ctor_m70E1722EBEA7E4C3A78F334FC3D5BDFD8ABE725B (void);
+extern void RotationLimiter_LateUpdate_m464013D69C4B29F9BE207E9EDFF2444C459CC367 (void);
+extern void RotationLimiter_WrapAngle_mF58C94B418379C1005E14E3A04DC93177C999703 (void);
+extern void RotationLimiter__ctor_m29085C9417E85BDC8AD0299374AAD75C396A4385 (void);
 extern void LandmarkFollower_Start_mCE86FAFF96FAE6D44FF8BB30236B93CC217F1A16 (void);
 extern void LandmarkFollower_setFinger_mE3102CB6C2661B5CDAAE1F74AFDF926B68C191F6 (void);
 extern void LandmarkFollower_Update_m0FC1CBA7B43C2480B2CC2C494E434CE400116C38 (void);
@@ -1017,7 +1020,7 @@ extern void FaceDetectionConfigWindow_U3CInitializeRunningModeU3Eb__22_0_mA92B45
 extern void FaceDetectionConfigWindow_U3CInitializeMinDetectionConfidenceU3Eb__23_0_m31E2C78577D731BD83E7BFAF90983D334C3B417E (void);
 extern void FaceDetectionConfigWindow_U3CInitializeMinSuppressionThresholdU3Eb__24_0_m64F24E9C1B82A7EE96A82CBA76531ABD028F8B6A (void);
 extern void FaceDetectionConfigWindow_U3CInitializeNumFacesU3Eb__25_0_m4622CA4893D10D647FC146F141377B2D8F516F82 (void);
-static Il2CppMethodPointer s_methodPointers[1080] = 
+static Il2CppMethodPointer s_methodPointers[1083] = 
 {
 	UnicodeInlineText_OnPopulateMesh_m494236F236211061859A497C7A1091C5A2C5BD6D,
 	UnicodeInlineText_Decode_m3D8FBEDB0EA494CD7D1E0AF967D3BA6A545DDB1B,
@@ -1064,6 +1067,9 @@ static Il2CppMethodPointer s_methodPointers[1080] =
 	PoseTrackingManager_GetLandmark_m21F926DAA7D5C20436599F348547139E25C4613C,
 	PoseTrackingManager_GetWorldLandmark_mED01CCEAF63CBE3230F6143BFD41E4BC41FC4ABE,
 	PoseTrackingManager__ctor_m70E1722EBEA7E4C3A78F334FC3D5BDFD8ABE725B,
+	RotationLimiter_LateUpdate_m464013D69C4B29F9BE207E9EDFF2444C459CC367,
+	RotationLimiter_WrapAngle_mF58C94B418379C1005E14E3A04DC93177C999703,
+	RotationLimiter__ctor_m29085C9417E85BDC8AD0299374AAD75C396A4385,
 	LandmarkFollower_Start_mCE86FAFF96FAE6D44FF8BB30236B93CC217F1A16,
 	LandmarkFollower_setFinger_mE3102CB6C2661B5CDAAE1F74AFDF926B68C191F6,
 	LandmarkFollower_Update_m0FC1CBA7B43C2480B2CC2C494E434CE400116C38,
@@ -2112,18 +2118,18 @@ extern void U3CWaitNextAsyncU3Ed__58_MoveNext_mF1A0A4EA9DAB41F1835BB33B8C9DBDD74
 extern void U3CWaitNextAsyncU3Ed__58_SetStateMachine_m35F545E125DBD2A10337A5A8DE39562F787E0969_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] = 
 {
-	{ 0x0600007E, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
-	{ 0x060000B5, ResolutionStruct__ctor_mE369C9144160B88E2BF577642F69F4516CEAC3D6_AdjustorThunk },
-	{ 0x060000B6, ResolutionStruct__ctor_m813873DE8AFC6A291335D52E0FE801A0A4F3ED3F_AdjustorThunk },
-	{ 0x060000B7, ResolutionStruct_ToResolution_m7D3150BCB50AC715F5576C7EA1D08626D9F4B8BE_AdjustorThunk },
-	{ 0x060000B8, ResolutionStruct_ToString_m7EF2314E11C11102CA4AAE2DC684F913AEBD75AE_AdjustorThunk },
-	{ 0x060002C7, U3CWaitNextAsyncU3Ed__12_MoveNext_mAE2EC29E66A3F81D91DE3FF015124D75EDE7EFB7_AdjustorThunk },
-	{ 0x060002C8, U3CWaitNextAsyncU3Ed__12_SetStateMachine_mDE3328A73B7222B8EF6F818BDD130C171E62E313_AdjustorThunk },
-	{ 0x060002E5, HolisticTrackingResult__ctor_m3FC6BB8336C944A3752E0DB01D9D526A08645B20_AdjustorThunk },
-	{ 0x06000310, U3CWaitNextAsyncU3Ed__58_MoveNext_mF1A0A4EA9DAB41F1835BB33B8C9DBDD7473F9F9E_AdjustorThunk },
-	{ 0x06000311, U3CWaitNextAsyncU3Ed__58_SetStateMachine_m35F545E125DBD2A10337A5A8DE39562F787E0969_AdjustorThunk },
+	{ 0x06000081, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
+	{ 0x060000B8, ResolutionStruct__ctor_mE369C9144160B88E2BF577642F69F4516CEAC3D6_AdjustorThunk },
+	{ 0x060000B9, ResolutionStruct__ctor_m813873DE8AFC6A291335D52E0FE801A0A4F3ED3F_AdjustorThunk },
+	{ 0x060000BA, ResolutionStruct_ToResolution_m7D3150BCB50AC715F5576C7EA1D08626D9F4B8BE_AdjustorThunk },
+	{ 0x060000BB, ResolutionStruct_ToString_m7EF2314E11C11102CA4AAE2DC684F913AEBD75AE_AdjustorThunk },
+	{ 0x060002CA, U3CWaitNextAsyncU3Ed__12_MoveNext_mAE2EC29E66A3F81D91DE3FF015124D75EDE7EFB7_AdjustorThunk },
+	{ 0x060002CB, U3CWaitNextAsyncU3Ed__12_SetStateMachine_mDE3328A73B7222B8EF6F818BDD130C171E62E313_AdjustorThunk },
+	{ 0x060002E8, HolisticTrackingResult__ctor_m3FC6BB8336C944A3752E0DB01D9D526A08645B20_AdjustorThunk },
+	{ 0x06000313, U3CWaitNextAsyncU3Ed__58_MoveNext_mF1A0A4EA9DAB41F1835BB33B8C9DBDD7473F9F9E_AdjustorThunk },
+	{ 0x06000314, U3CWaitNextAsyncU3Ed__58_SetStateMachine_m35F545E125DBD2A10337A5A8DE39562F787E0969_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1080] = 
+static const int32_t s_InvokerIndices[1083] = 
 {
 	13359,
 	11528,
@@ -2169,6 +2175,9 @@ static const int32_t s_InvokerIndices[1080] =
 	13387,
 	11931,
 	5208,
+	17387,
+	17387,
+	11737,
 	17387,
 	17387,
 	17387,
@@ -3208,38 +3217,38 @@ static const int32_t s_InvokerIndices[1080] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[32] = 
 {
-	{ 0x02000034, { 0, 3 } },
-	{ 0x02000047, { 180, 16 } },
-	{ 0x02000048, { 196, 19 } },
-	{ 0x02000049, { 215, 22 } },
-	{ 0x0200004A, { 237, 25 } },
-	{ 0x0200004B, { 262, 28 } },
-	{ 0x0200004C, { 290, 31 } },
-	{ 0x0200004D, { 321, 36 } },
-	{ 0x0200004F, { 357, 3 } },
-	{ 0x02000052, { 363, 3 } },
-	{ 0x0200005C, { 381, 4 } },
-	{ 0x0200005D, { 385, 1 } },
-	{ 0x060001A8, { 3, 2 } },
-	{ 0x060001AA, { 5, 5 } },
-	{ 0x060001AB, { 10, 1 } },
-	{ 0x060001AC, { 11, 5 } },
-	{ 0x060001AD, { 16, 7 } },
-	{ 0x060001AE, { 23, 9 } },
-	{ 0x060001AF, { 32, 11 } },
-	{ 0x060001B0, { 43, 13 } },
-	{ 0x060001B1, { 56, 15 } },
-	{ 0x060001B2, { 71, 18 } },
-	{ 0x060001B3, { 89, 10 } },
-	{ 0x060001B4, { 99, 11 } },
-	{ 0x060001B5, { 110, 12 } },
-	{ 0x060001B6, { 122, 13 } },
-	{ 0x060001B7, { 135, 14 } },
-	{ 0x060001B8, { 149, 15 } },
-	{ 0x060001B9, { 164, 16 } },
-	{ 0x060001EC, { 360, 3 } },
-	{ 0x06000204, { 366, 3 } },
-	{ 0x06000228, { 369, 12 } },
+	{ 0x02000035, { 0, 3 } },
+	{ 0x02000048, { 180, 16 } },
+	{ 0x02000049, { 196, 19 } },
+	{ 0x0200004A, { 215, 22 } },
+	{ 0x0200004B, { 237, 25 } },
+	{ 0x0200004C, { 262, 28 } },
+	{ 0x0200004D, { 290, 31 } },
+	{ 0x0200004E, { 321, 36 } },
+	{ 0x02000050, { 357, 3 } },
+	{ 0x02000053, { 363, 3 } },
+	{ 0x0200005D, { 381, 4 } },
+	{ 0x0200005E, { 385, 1 } },
+	{ 0x060001AB, { 3, 2 } },
+	{ 0x060001AD, { 5, 5 } },
+	{ 0x060001AE, { 10, 1 } },
+	{ 0x060001AF, { 11, 5 } },
+	{ 0x060001B0, { 16, 7 } },
+	{ 0x060001B1, { 23, 9 } },
+	{ 0x060001B2, { 32, 11 } },
+	{ 0x060001B3, { 43, 13 } },
+	{ 0x060001B4, { 56, 15 } },
+	{ 0x060001B5, { 71, 18 } },
+	{ 0x060001B6, { 89, 10 } },
+	{ 0x060001B7, { 99, 11 } },
+	{ 0x060001B8, { 110, 12 } },
+	{ 0x060001B9, { 122, 13 } },
+	{ 0x060001BA, { 135, 14 } },
+	{ 0x060001BB, { 149, 15 } },
+	{ 0x060001BC, { 164, 16 } },
+	{ 0x060001EF, { 360, 3 } },
+	{ 0x06000207, { 366, 3 } },
+	{ 0x0600022B, { 369, 12 } },
 };
 extern const uint32_t g_rgctx_WaitForResult_1_t23BC6C1D71B6134FA44D619601A58861228B8C7C;
 extern const uint32_t g_rgctx_T_t7BF18128D0A7F7BA6FA6114E05C6482DA4D0F6B7;
@@ -4020,7 +4029,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1080,
+	1083,
 	s_methodPointers,
 	10,
 	s_adjustorThunks,

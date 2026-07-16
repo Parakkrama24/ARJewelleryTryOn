@@ -1369,11 +1369,14 @@ MonoBehaviour:
   - Ring
   - Middle
   - Thumb
+  _fingerPlacement: 0.604
   _positionOffset: {x: 0, y: 0, z: 0}
-  _ringScale: {x: 0.1, y: 0.05, z: 0.05}
+  _ringScale: {x: 0.3, y: 0.15, z: 0.15}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 90, z: 90}
   _rotationSmoothSpeed: 12
+  _flipAxis: 0
+  _flipAngle: 180
 --- !u!1 &1374798684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,11 +1702,14 @@ MonoBehaviour:
   - Ring
   - Middle
   - Thumb
+  _fingerPlacement: 0.3
   _positionOffset: {x: 0, y: 0, z: 0}
   _ringScale: {x: 1, y: 1, z: 1}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 0, z: 0}
   _rotationSmoothSpeed: 12
+  _flipAxis: 0
+  _flipAngle: 180
 --- !u!1 &1806680259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,11 +1958,14 @@ MonoBehaviour:
   - Ring
   - Middle
   - Thumb
+  _fingerPlacement: 0.3
   _positionOffset: {x: 0, y: 0, z: 0}
   _ringScale: {x: 110, y: 110, z: 110}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 90, z: 90}
   _rotationSmoothSpeed: 12
+  _flipAxis: 0
+  _flipAngle: 180
 --- !u!1 &1969388814
 GameObject:
   m_ObjectHideFlags: 0

@@ -473,7 +473,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8837774153085666347, guid: 87a9be2a7620991a78342ef9a56fa62c, type: 3}
       propertyPath: _landmarkRadius
-      value: 15
+      value: 12.8
       objectReference: {fileID: 0}
     - target: {fileID: -8837774153085666347, guid: 87a9be2a7620991a78342ef9a56fa62c, type: 3}
       propertyPath: _connectionWidth
@@ -1465,19 +1465,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.66000164
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.75126415
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.66000164
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.75126415
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1485,7 +1485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 743d38c70d6c9da4baedd22e63165e34, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1560,14 +1560,14 @@ MonoBehaviour:
   - Ring
   - Middle
   - Thumb
-  _fingerPlacement: 0.554
+  _fingerPlacement: 0.563
   _positionOffset: {x: 0, y: 0, z: 0}
-  _ringScale: {x: 110, y: 110, z: 110}
+  _ringScale: {x: 150, y: 150, z: 150}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 0, z: 90}
   _rotationSmoothSpeed: 12
   _flipAxis: 2
-  _flipAngle: 380
+  _flipAngle: 0
 --- !u!1 &1806680259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,6 +1578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1806680261}
   - component: {fileID: 1806680260}
+  - component: {fileID: 1806680262}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1665,6 +1666,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1806680262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806680259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &1928326412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2875,6 +2905,6 @@ SceneRoots:
   - {fileID: 1064799461}
   - {fileID: 1374798686}
   - {fileID: 521565870}
-  - {fileID: 607249328}
   - {fileID: 1769175402}
+  - {fileID: 607249328}
   - {fileID: 657322785}
