@@ -4586,7 +4586,7 @@ inline XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75 UnsafeUtility_R
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117672
+// Method Definition Index: 117677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWhenAllU3Ed__60_8_MoveNext_mE38D8DAB89AC472C0D083D929BD25EEAAE9B83A3_gshared (U3CWhenAllU3Ed__60_8_tECD82512F73041267F816C874C37B05D7E71A24A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4788,7 +4788,7 @@ IL2CPP_EXTERN_C  void U3CWhenAllU3Ed__60_8_MoveNext_mE38D8DAB89AC472C0D083D929BD
 	_thisAdjusted = reinterpret_cast<U3CWhenAllU3Ed__60_8_tECD82512F73041267F816C874C37B05D7E71A24A*>(__this + _offset);
 	U3CWhenAllU3Ed__60_8_MoveNext_mE38D8DAB89AC472C0D083D929BD25EEAAE9B83A3(_thisAdjusted, method);
 }
-// Method Definition Index: 117673
+// Method Definition Index: 117678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWhenAllU3Ed__60_8_SetStateMachine_mFC021DB9747F3D411E5834DDF859F8C55582E3B2_gshared (U3CWhenAllU3Ed__60_8_tECD82512F73041267F816C874C37B05D7E71A24A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -4814,7 +4814,7 @@ IL2CPP_EXTERN_C  void U3CWhenAllU3Ed__60_8_SetStateMachine_mFC021DB9747F3D411E58
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 117672
+// Method Definition Index: 117677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWhenAllU3Ed__60_8_MoveNext_mC828BCBD694C6DE854D6909E1AE6D30EF7DE1AB4_gshared (U3CWhenAllU3Ed__60_8_tED195C526A6C095DA876B7E0F445BAC752384F6C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5036,7 +5036,7 @@ IL2CPP_EXTERN_C  void U3CWhenAllU3Ed__60_8_MoveNext_mC828BCBD694C6DE854D6909E1AE
 	_thisAdjusted = reinterpret_cast<U3CWhenAllU3Ed__60_8_tED195C526A6C095DA876B7E0F445BAC752384F6C*>(__this + _offset);
 	U3CWhenAllU3Ed__60_8_MoveNext_mC828BCBD694C6DE854D6909E1AE6D30EF7DE1AB4(_thisAdjusted, method);
 }
-// Method Definition Index: 117673
+// Method Definition Index: 117678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWhenAllU3Ed__60_8_SetStateMachine_m7C2283C16D650B78637345FDF6B3D771D40797AA_gshared (U3CWhenAllU3Ed__60_8_tED195C526A6C095DA876B7E0F445BAC752384F6C* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -5062,7 +5062,7 @@ IL2CPP_EXTERN_C  void U3CWhenAllU3Ed__60_8_SetStateMachine_m7C2283C16D650B786373
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120070
+// Method Definition Index: 120075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1_OnKeepWaiting_mB5ADA6DDC6C440165DC049E64A26423C2DBD123E_gshared (ARCorePromise_1_t4CE9AB3989999D3FFBC01CE0845E421A3805BC21* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5092,7 +5092,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 120071
+// Method Definition Index: 120076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1_Resolve_m4666F463DF2E587C05F3D59FC7C94248A69CE4D3_gshared (ARCorePromise_1_t4CE9AB3989999D3FFBC01CE0845E421A3805BC21* __this, int32_t ___0_result, const RuntimeMethod* method) 
 {
 	{
@@ -5104,7 +5104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1_Resolve_m4666F463DF2E587
 		return;
 	}
 }
-// Method Definition Index: 120072
+// Method Definition Index: 120077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1__ctor_m0E3937932196DAB57D379A7DFA57B9F95E769568_gshared (ARCorePromise_1_t4CE9AB3989999D3FFBC01CE0845E421A3805BC21* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5120,7 +5120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1__ctor_m0E3937932196DAB57
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 120070
+// Method Definition Index: 120075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1_OnKeepWaiting_m2EB3C710762EDC3311513EE04FCA5EB0287604D6_gshared (ARCorePromise_1_t5218B2F0D50CFBF4FA8E9C605D6916EA0E398B68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5150,7 +5150,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 120071
+// Method Definition Index: 120076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1_Resolve_mE97746C9264B0A8F2A9D3A162E539B9CBF800F74_gshared (ARCorePromise_1_t5218B2F0D50CFBF4FA8E9C605D6916EA0E398B68* __this, Il2CppFullySharedGenericAny ___0_result, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tBFC275D545653B2258E6D34C786B453391905F6B = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3));
@@ -5164,7 +5164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1_Resolve_mE97746C9264B0A8
 		return;
 	}
 }
-// Method Definition Index: 120072
+// Method Definition Index: 120077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCorePromise_1__ctor_mD7456ED01F59452C5F7111451A8D3DB685316210_gshared (ARCorePromise_1_t5218B2F0D50CFBF4FA8E9C605D6916EA0E398B68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27107,7 +27107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m9895629772A96417C514652
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 125276
+// Method Definition Index: 125281
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline (SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27124,7 +27124,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackableId_t49EAE8AA4B9584E31451
 		return L_0;
 	}
 }
-// Method Definition Index: 121824
+// Method Definition Index: 121829
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XROrigin_get_TrackablesParent_m6F7933DF03A5376C31D328F865F77D28EEC18E9C_inline (XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* __this, const RuntimeMethod* method) 
 {
 	{
