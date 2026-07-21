@@ -1555,13 +1555,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RingAnnotationAnchor
   _multiHandAnnotation: {fileID: 227034123}
-  _fingerLandmarks: 0e0000000a00000003000000
+  _fingerLandmarks: 0d0000000900000002000000
   _fingerNames:
   - Ring
   - Middle
   - Thumb
-  _fingerPlacement: 0.563
-  _positionOffset: {x: 0, y: 0, z: 0}
+  _fingerPlacement: 0.844
+  _positionOffset: {x: 0.8, y: 0, z: 0}
   _ringScale: {x: 150, y: 150, z: 150}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 0, z: 90}

@@ -1364,13 +1364,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RingAnnotationAnchor
   _multiHandAnnotation: {fileID: 227034123}
-  _fingerLandmarks: 0e0000000a00000003000000
+  _fingerLandmarks: 0d0000000900000002000000
   _fingerNames:
   - Ring
   - Middle
   - Thumb
-  _fingerPlacement: 0.604
-  _positionOffset: {x: 0, y: 0, z: 0}
+  _fingerPlacement: 0.927
+  _positionOffset: {x: 0, y: 0, z: 0.58}
   _ringScale: {x: 0.3, y: 0.15, z: 0.15}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 90, z: 90}

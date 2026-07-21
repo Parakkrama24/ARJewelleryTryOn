@@ -1674,7 +1674,7 @@ MonoBehaviour:
   - Middle
   - Thumb
   _fingerPlacement: 0.609
-  _positionOffset: {x: 0, y: 0, z: 0}
+  _positionOffset: {x: 0, y: 0.85, z: 0}
   _ringScale: {x: 2, y: 2, z: 2}
   _trackRotation: 1
   _rotationOffset: {x: 0, y: 0, z: 0}
@@ -1894,12 +1894,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RingAnnotationAnchor
   _multiHandAnnotation: {fileID: 227034123}
-  _fingerLandmarks: 0e0000000a00000003000000
+  _fingerLandmarks: 0d0000000900000002000000
   _fingerNames:
   - Ring
   - Middle
   - Thumb
-  _fingerPlacement: 0.3
+  _fingerPlacement: 0.868
   _positionOffset: {x: 0, y: 0, z: 0}
   _ringScale: {x: 180, y: 180, z: 180}
   _trackRotation: 1
